@@ -43,6 +43,20 @@ export default function HotspotChart({ predictions, error }: HotspotChartProps) 
     )
   }
 
+  if (predictions.length === 0) {
+    return (
+      <Card className="col-span-full lg:col-span-4 bg-[#1e293b] border-slate-700 flex flex-col shadow-sm">
+        <CardHeader>
+          <CardTitle className="text-slate-200">Predicted Hotspot Risk</CardTitle>
+        </CardHeader>
+        <CardContent className="flex-1 flex flex-col items-center justify-center p-6 text-slate-400 gap-3">
+          <AlertCircle className="h-8 w-8 text-rose-500/80" />
+          <p>No hotspot predictions are available at the moment.</p>
+        </CardContent>
+      </Card>
+    )
+  }
+
   // Normalize data for chart: use risk percentage, identify risk string
   const chartData = predictions.map(p => {
     const riskStr = (p.risk_level || p.risk || "Low Risk").toLowerCase()

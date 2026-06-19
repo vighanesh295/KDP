@@ -41,6 +41,20 @@ export default function TrendChart({ data, error }: TrendChartProps) {
     )
   }
 
+  if (data.length === 0) {
+    return (
+      <Card className="lg:col-span-3 bg-[#1e293b] border-slate-700 flex flex-col shadow-sm">
+        <CardHeader>
+          <CardTitle className="text-slate-200">Monthly FIR Trend</CardTitle>
+        </CardHeader>
+        <CardContent className="flex-1 flex flex-col items-center justify-center p-6 text-slate-400 gap-3">
+          <AlertCircle className="h-8 w-8 text-rose-500/80" />
+          <p>No monthly FIR trend data is available right now.</p>
+        </CardContent>
+      </Card>
+    )
+  }
+
   // Format YYYY-MM into a shorter readable format
   const formatMonth = (tickItem: any) => {
     if (!tickItem) return ""
@@ -58,7 +72,7 @@ export default function TrendChart({ data, error }: TrendChartProps) {
         <CardTitle className="text-slate-200">Monthly FIR Trend</CardTitle>
       </CardHeader>
       <CardContent className="flex-1 pb-6 px-2 min-h-[250px] flex items-end">
-        <div className="h-full w-full">
+        <div className="h-[280px] w-full">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#334155" vertical={false} />

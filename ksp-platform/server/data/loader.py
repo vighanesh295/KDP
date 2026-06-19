@@ -86,6 +86,92 @@ def get_crime_breakdown() -> list:
     
     return breakdown.to_dict('records')
 
+
+def get_crime_details(crime_type: str) -> dict:
+    if df.empty or 'crime_type' not in df.columns:
+        return {
+            'crime_type': crime_type,
+            'total_cases': 0,
+            'open_cases': 0,
+            'under_investigation': 0,
+            'closed_cases': 0,
+            'monthly_trend': [],
+            'districts': [],
+            'ipc_breakdown': [],
+            'patterns': [],
+            'sample_firs': []
+        }
+
+    crime_type_normalized = crime_type.strip().lower()
+    filtered = df[df['crime_type'].str.lower() == crime_type_normalized].copy()
+    if filtered.empty:
+        return {
+            'crime_type': crime_type,
+            'total_cases': 0,
+            'open_cases': 0,
+            'under_investigation': 0,
+            'closed_cases': 0,
+            'monthly_trend': [],
+            'districts': [],
+            'ipc_breakdown': [],
+            'patterns': [],
+            'sample_firs': []
+        }
+
+    filtered['date'] = pd.to_datetime(filtered['date'], errors='coerce')
+    filtered['month'] = filtered['date'].dt.strftime('%Y-%m')
+
+    total_cases = int(len(filtered))
+    open_cases = int(filtered['status'].isin(['Open', 'Under Investigation']).sum())
+    closed_cases = int((filtered['status'] == 'Closed').sum())
+    under_investigation = total_cases - open_cases - closed_cases
+
+    monthly_trend_df = filtered.dropna(subset=['month']).groupby('month').size().reset_index(name='count')
+    monthly_trend_df = monthly_trend_df.sort_values('month')
+    monthly_trend = monthly_trend_df.to_dict('records')
+
+    district_counts_df = filtered.groupby('district').size().reset_index(name='count')
+    district_counts_df = district_counts_df.sort_values('count', ascending=False)
+    districts = district_counts_df.to_dict('records')
+
+    ipc_counts_df = filtered.groupby('ipc_section').size().reset_index(name='count')
+    ipc_counts_df = ipc_counts_df.sort_values('count', ascending=False)
+    ipc_breakdown = ipc_counts_df.to_dict('records')
+
+    sample_firs = filtered.sort_values('date', ascending=False).head(8)
+    sample_list = []
+    for _, row in sample_firs.iterrows():
+        sample_list.append({
+            'fir_number': row.get('fir_number', ''),
+            'district': row.get('district', ''),
+            'date': str(row.get('date', ''))[:10],
+            'status': row.get('status', ''),
+            'ipc_section': row.get('ipc_section', ''),
+            'station': row.get('station', '')
+        })
+
+    top_districts = districts[:3]
+    top_ipc_sections = ipc_breakdown[:3]
+    patterns = [
+        f"Most FIRs are registered in {top_districts[0]['district']}.",
+        f"Leading charge is {top_ipc_sections[0]['ipc_section']} with {top_ipc_sections[0]['count']} cases.",
+        f"There are currently {open_cases} open or active cases for this type."
+    ]
+
+    return {
+        'crime_type': crime_type,
+        'total_cases': total_cases,
+        'open_cases': open_cases,
+        'under_investigation': under_investigation,
+        'closed_cases': closed_cases,
+        'monthly_trend': monthly_trend,
+        'districts': districts,
+        'ipc_breakdown': ipc_breakdown,
+        'patterns': patterns,
+        'sample_firs': sample_list
+    }
+
+
 def get_district_counts() -> list:
     if df.empty or 'district' not in df.columns:
         return []

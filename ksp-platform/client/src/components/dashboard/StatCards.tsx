@@ -10,9 +10,15 @@ interface StatCardProps {
   trendUp: boolean
 }
 
-function StatCard({ title, value, icon, trend, trendUp }: StatCardProps) {
+function StatCard({ title, value, icon, trend, trendUp, onClick }: StatCardProps) {
   return (
-    <Card className="bg-[#1e293b] border-slate-700 text-white shadow-sm">
+    <Card
+      className={`bg-[#1e293b] border-slate-700 text-white shadow-sm transition-all ${onClick ? 'cursor-pointer hover:border-slate-500 hover:bg-slate-900' : ''}`}
+      onClick={onClick}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      onKeyDown={onClick ? (event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); onClick(); } } : undefined}
+    >
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
         <CardTitle className="text-sm font-medium text-slate-300">
           {title}
@@ -34,6 +40,11 @@ function StatCard({ title, value, icon, trend, trendUp }: StatCardProps) {
           </span>
           <span className="ml-1 text-slate-500">from last month</span>
         </p>
+        {onClick && (
+          <div className="mt-3">
+            <span className="text-xs text-blue-400 hover:text-blue-300">Tap to ask AI</span>
+          </div>
+        )}
       </CardContent>
     </Card>
   )
@@ -46,6 +57,10 @@ interface StatCardsProps {
   activeDistricts?: number
   isLoading?: boolean
   error?: boolean | string
+  onTotalFirsClick?: () => void
+  onOpenCasesClick?: () => void
+  onSolvedCasesClick?: () => void
+  onActiveDistrictsClick?: () => void
 }
 
 export default function StatCards({
@@ -54,7 +69,11 @@ export default function StatCards({
   solvedCases = 0,
   activeDistricts = 0,
   isLoading,
-  error
+  error,
+  onTotalFirsClick,
+  onOpenCasesClick,
+  onSolvedCasesClick,
+  onActiveDistrictsClick
 }: StatCardsProps) {
   if (error) {
     return (
@@ -95,6 +114,7 @@ export default function StatCards({
         icon={<FileText className="h-4 w-4" />} 
         trend="+12%" 
         trendUp={true} 
+        onClick={onTotalFirsClick}
       />
       <StatCard 
         title="Open Cases" 
@@ -102,6 +122,7 @@ export default function StatCards({
         icon={<FolderOpen className="h-4 w-4" />} 
         trend="-5%" 
         trendUp={false} 
+        onClick={onOpenCasesClick}
       />
       <StatCard 
         title="Solved Cases" 
@@ -109,6 +130,7 @@ export default function StatCards({
         icon={<CheckCircle2 className="h-4 w-4" />} 
         trend="+18%" 
         trendUp={true} 
+        onClick={onSolvedCasesClick}
       />
       <StatCard 
         title="Active Districts" 
@@ -116,6 +138,7 @@ export default function StatCards({
         icon={<MapPin className="h-4 w-4" />} 
         trend="0%" 
         trendUp={true} 
+        onClick={onActiveDistrictsClick}
       />
     </div>
   )
