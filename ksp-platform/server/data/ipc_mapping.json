@@ -1,0 +1,73 @@
+{
+  "Cybercrime": [
+    "66 IT Act",
+    "66C IT Act",
+    "66D IT Act",
+    "67 IT Act",
+    "420 IPC"
+  ],
+  "Theft": [
+    "379 IPC",
+    "380 IPC",
+    "381 IPC"
+  ],
+  "Robbery": [
+    "392 IPC",
+    "393 IPC",
+    "394 IPC"
+  ],
+  "Assault": [
+    "323 IPC",
+    "324 IPC",
+    "351 IPC",
+    "352 IPC",
+    "353 IPC"
+  ],
+  "Murder": [
+    "302 IPC",
+    "304 IPC",
+    "307 IPC"
+  ],
+  "Fraud": [
+    "406 IPC",
+    "409 IPC",
+    "420 IPC",
+    "468 IPC"
+  ],
+  "Kidnapping": [
+    "359 IPC",
+    "363 IPC",
+    "364 IPC",
+    "364A IPC"
+  ],
+  "Drug offences": [
+    "20 NDPS Act",
+    "21 NDPS Act",
+    "22 NDPS Act",
+    "27 NDPS Act"
+  ],
+  "Sexual offences": [
+    "354 IPC",
+    "375 IPC",
+    "376 IPC",
+    "509 IPC",
+    "POCSO Act"
+  ],
+  "Property damage": [
+    "425 IPC",
+    "426 IPC",
+    "427 IPC",
+    "435 IPC"
+  ],
+  "Domestic violence": [
+    "304B IPC",
+    "498A IPC",
+    "Protection of Women from Domestic Violence Act"
+  ],
+  "Other": [
+    "188 IPC",
+    "279 IPC",
+    "504 IPC",
+    "506 IPC"
+  ]
+}

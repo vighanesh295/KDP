@@ -1,0 +1,13 @@
+{
+    "deployment":  {
+                       "stack":  "python_3_11",
+                       "name":  "chat",
+                       "env_variables":  {
+                                             "GEMINI_API_KEY":  "${GEMINI_API_KEY}"
+                                         },
+                       "type":  "advancedio"
+                   },
+    "execution":  {
+                      "main":  "main.py"
+                  }
+}

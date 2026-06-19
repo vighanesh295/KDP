@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "44459000000019001",
+      "name": "KSP-Platform",
+      "domain": {
+        "id": "50043108042",
+        "name": "ksp-platform-60073294221.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60073294221",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "keyword": "cybercrime",
+    "response": "Bengaluru Urban reported 47 cybercrime cases in May 2025, a 12% increase from April. Primary categories: online fraud (18), phishing (14), identity theft (9), other (6). Top stations: Whitefield PS (11), Electronic City PS (9)."
+  },
+  {
+    "keyword": "summarise",
+    "response": "FIR Summary — Crime Type: Cybercrime (Online Fraud) | IPC: 66D IT Act, 420 IPC | Accused: Unknown | Victim: Ramesh Kumar, 42, lost ₹2.4L to fake investment scheme | Next step: Issue notice under Section 91 CrPC to payment gateway."
+  },
+  {
+    "keyword": "highest",
+    "response": "Top 5 districts (Jan–May 2025): 1. Bengaluru Urban — 312, 2. Mysuru — 87, 3. Hubballi-Dharwad — 76, 4. Belagavi — 71, 5. Mangaluru — 68."
+  },
+  {
+    "keyword": "predict",
+    "response": "High risk for June 2025: Bengaluru Urban (cybercrime, 87%), Kalaburagi (theft, 79%), Belagavi (assault, 74%). Recommend increased patrol in these zones."
+  },
+  {
+    "keyword": "ipc",
+    "response": "Online fraud: Section 66D IT Act (cheating by personation) and Section 420 IPC. For identity theft also apply Section 66C IT Act."
+  }
+]

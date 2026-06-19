@@ -1,0 +1,801 @@
+fir_number,district,crime_type,ipc_section,date,status,officer_name,accused_name,accused_age,station
+FIR/2025/BEL/00001,Belagavi,Domestic violence,498A IPC,2025-02-06,Open,Aryan Maharaj,Udant Dewan,23,Belagavi Town Police Station
+FIR/2024/MAN/00002,Mangaluru,Murder,302 IPC,2024-11-06,Under Investigation,Gagan Sami,Ayushman Chander,33,Mangaluru Town Police Station
+FIR/2025/BEN/00003,Bengaluru Urban,Theft,379 IPC,2025-01-10,Open,Viraj Tiwari,Rushil Saini,36,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00004,Bengaluru Rural,Cybercrime,66C IT Act,2024-06-05,Open,Saumya Mall,Nathaniel Sami,18,Bengaluru Rural Town Police Station
+FIR/2024/TUM/00005,Tumakuru,Property damage,425 IPC,2024-01-25,Closed,Arunima Dugal,Gayathri Chaudry,28,Tumakuru Town Police Station
+FIR/2024/HUB/00006,Hubballi-Dharwad,Robbery,392 IPC,2024-07-16,Closed,Lajita Chatterjee,Hemangini Lalla,48,Hubballi-Dharwad Town Police Station
+FIR/2024/UDU/00007,Udupi,Sexual offences,375 IPC,2024-02-03,Closed,Tripti Yadav,Kritika Brar,33,Udupi Town Police Station
+FIR/2024/VIJ/00008,Vijayanagara,Theft,379 IPC,2024-12-24,Open,Janaki Handa,Chakradev Kari,34,Vijayanagara Town Police Station
+FIR/2024/HUB/00009,Hubballi-Dharwad,Other,Others,2024-03-03,Open,Fariq Kaul,Lajita Mall,44,Hubballi-Dharwad Town Police Station
+FIR/2024/BEL/00010,Belagavi,Fraud,420 IPC,2024-04-17,Open,Janya Gaba,Isha Kadakia,20,Belagavi Town Police Station
+FIR/2025/BEN/00011,Bengaluru Urban,Theft,379 IPC,2025-01-09,Closed,Ekbal Garg,Nihal Shere,45,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00012,Bengaluru Urban,Kidnapping,359 IPC,2024-09-25,Closed,Anamika Kanda,Daksh Karnik,40,Bengaluru Urban Town Police Station
+FIR/2024/DAV/00013,Davangere,Drug offences,21 NDPS Act,2024-07-03,Open,Diya Rattan,Dominic Kakar,42,Davangere Town Police Station
+FIR/2024/SHI/00014,Shivamogga,Sexual offences,375 IPC,2024-06-01,Open,Simon Tata,Tara Dhar,34,Shivamogga Town Police Station
+FIR/2024/BEL/00015,Belagavi,Drug offences,21 NDPS Act,2024-01-03,Under Investigation,Liam Koshy,Priya Rastogi,31,Belagavi Town Police Station
+FIR/2025/DHA/00016,Dharwad,Robbery,392 IPC,2025-02-11,Under Investigation,Theodore Devi,Gavin Batta,37,Dharwad Town Police Station
+FIR/2024/BAG/00017,Bagalkot,Sexual offences,375 IPC,2024-11-17,Open,Michael Dutta,Devansh Rajan,42,Bagalkot Town Police Station
+FIR/2024/BEN/00018,Bengaluru Urban,Kidnapping,359 IPC,2024-12-11,Under Investigation,Upadhriti Wadhwa,Advay Contractor,18,Bengaluru Urban Town Police Station
+FIR/2024/VIJ/00019,Vijayapura,Robbery,392 IPC,2024-03-02,Under Investigation,Harini Choudhury,Radhika Dugar,42,Vijayapura Town Police Station
+FIR/2024/MAN/00020,Mandya,Property damage,425 IPC,2024-05-01,Open,Aarush Lall,Yashica Cherian,33,Mandya Town Police Station
+FIR/2024/HUB/00021,Hubballi-Dharwad,Kidnapping,359 IPC,2024-09-02,Open,Yashica Issac,Kashvi Edwin,23,Hubballi-Dharwad Town Police Station
+FIR/2024/UDU/00022,Udupi,Murder,302 IPC,2024-05-08,Open,Ekiya Suresh,Isaac Patil,25,Udupi Town Police Station
+FIR/2024/BEN/00023,Bengaluru Urban,Domestic violence,498A IPC,2024-12-24,Under Investigation,Wriddhish Bhardwaj,Farhan Chada,43,Bengaluru Urban Town Police Station
+FIR/2024/RAI/00024,Raichur,Sexual offences,375 IPC,2024-02-24,Open,Ekapad Walia,Kabir Soman,30,Raichur Town Police Station
+FIR/2024/CHI/00025,Chikkaballapura,Property damage,425 IPC,2024-03-03,Open,Alka Wable,Siddharth Zacharia,18,Chikkaballapura Town Police Station
+FIR/2024/BAG/00026,Bagalkot,Cybercrime,66C IT Act,2024-04-27,Open,Devika Rastogi,Raksha Varughese,38,Bagalkot Town Police Station
+FIR/2024/BEN/00027,Bengaluru Urban,Drug offences,21 NDPS Act,2024-10-02,Open,Jai Kota,Devansh Nigam,38,Bengaluru Urban Town Police Station
+FIR/2024/UDU/00028,Udupi,Property damage,425 IPC,2024-06-23,Closed,Victor Kannan,Ekavir Bhargava,37,Udupi Town Police Station
+FIR/2024/DHA/00029,Dharwad,Cybercrime,66C IT Act,2024-02-03,Open,Ekansh Balay,Ekavir Varkey,18,Dharwad Town Police Station
+FIR/2024/HUB/00030,Hubballi-Dharwad,Kidnapping,359 IPC,2024-09-13,Open,Arya Sunder,Kevin Solanki,35,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00031,Bengaluru Urban,Murder,302 IPC,2024-06-27,Under Investigation,Urvashi Ray,Girindra Chatterjee,64,Bengaluru Urban Town Police Station
+FIR/2024/UDU/00032,Udupi,Murder,302 IPC,2024-09-09,Closed,Irya Sampath,Unni Bhagat,44,Udupi Town Police Station
+FIR/2024/MAN/00033,Mandya,Domestic violence,498A IPC,2024-05-04,Under Investigation,Darsh Rau,Ikbal Kothari,21,Mandya Town Police Station
+FIR/2025/MAN/00034,Mangaluru,Theft,379 IPC,2025-01-26,Open,Ranveer Yadav,Logan Sami,61,Mangaluru Town Police Station
+FIR/2024/YAD/00035,Yadgir,Other,Others,2024-09-19,Under Investigation,Arya Shere,Faqid Savant,30,Yadgir Town Police Station
+FIR/2024/HUB/00036,Hubballi-Dharwad,Property damage,425 IPC,2024-09-21,Open,Chandresh Zachariah,Girik Khalsa,45,Hubballi-Dharwad Town Police Station
+FIR/2025/BID/00037,Bidar,Assault,351 IPC,2025-04-30,Open,Niharika Sunder,Tanay Rattan,49,Bidar Town Police Station
+FIR/2024/HAS/00038,Hassan,Sexual offences,375 IPC,2024-02-28,Closed,Nitesh Raghavan,Madhavi Lanka,35,Hassan Town Police Station
+FIR/2024/CHA/00039,Chamarajanagar,Robbery,392 IPC,2024-04-27,Open,Bhavika Sampath,Mohammed Gupta,35,Chamarajanagar Town Police Station
+FIR/2024/HUB/00040,Hubballi-Dharwad,Cybercrime,66C IT Act,2024-02-18,Under Investigation,Teerth Bhardwaj,Dipta Bhandari,39,Hubballi-Dharwad Town Police Station
+FIR/2024/BAG/00041,Bagalkot,Domestic violence,498A IPC,2024-04-07,Open,Vansha Thakkar,Dakshesh Trivedi,44,Bagalkot Town Police Station
+FIR/2025/RAM/00042,Ramanagara,Fraud,420 IPC,2025-02-06,Under Investigation,Quincy Biswas,Wahab Raval,40,Ramanagara Town Police Station
+FIR/2025/BEN/00043,Bengaluru Urban,Drug offences,21 NDPS Act,2025-02-09,Under Investigation,Yatin Baral,Oni Virk,18,Bengaluru Urban Town Police Station
+FIR/2024/KOP/00044,Koppal,Sexual offences,375 IPC,2024-01-03,Open,Advika Jayaraman,William Lanka,49,Koppal Town Police Station
+FIR/2024/SHI/00045,Shivamogga,Fraud,420 IPC,2024-08-19,Closed,Karan Mital,Diya Bora,19,Shivamogga Town Police Station
+FIR/2025/BEL/00046,Belagavi,Drug offences,21 NDPS Act,2025-03-14,Under Investigation,Tara Chaudhry,Tanay Toor,34,Belagavi Town Police Station
+FIR/2024/VIJ/00047,Vijayapura,Other,Others,2024-09-19,Under Investigation,Kevin Palla,Yash Pingle,41,Vijayapura Town Police Station
+FIR/2025/VIJ/00048,Vijayanagara,Robbery,392 IPC,2025-04-05,Under Investigation,Nakul Sarma,Abhiram Mistry,18,Vijayanagara Town Police Station
+FIR/2024/CHI/00049,Chitradurga,Cybercrime,66C IT Act,2024-10-24,Open,Krish Lalla,Hredhaan Dugal,42,Chitradurga Town Police Station
+FIR/2025/HUB/00050,Hubballi-Dharwad,Robbery,392 IPC,2025-01-31,Open,Baghyawati Kade,Samar Lalla,24,Hubballi-Dharwad Town Police Station
+FIR/2025/BEN/00051,Bengaluru Rural,Murder,302 IPC,2025-03-31,Under Investigation,Zayan Behl,Pallavi Malhotra,33,Bengaluru Rural Town Police Station
+FIR/2025/SHI/00052,Shivamogga,Robbery,392 IPC,2025-05-20,Open,Aarush Nath,Adweta Edwin,39,Shivamogga Town Police Station
+FIR/2024/BEL/00053,Belagavi,Kidnapping,359 IPC,2024-05-18,Open,Prisha Andra,Faqid Dixit,18,Belagavi Town Police Station
+FIR/2024/RAM/00054,Ramanagara,Robbery,392 IPC,2024-10-21,Open,Kala Divan,Joshua Barman,18,Ramanagara Town Police Station
+FIR/2024/TUM/00055,Tumakuru,Fraud,420 IPC,2024-07-04,Open,Janya Baral,Shivansh Krish,22,Tumakuru Town Police Station
+FIR/2024/RAM/00056,Ramanagara,Sexual offences,375 IPC,2024-12-28,Open,Irya Ray,Warjas Gaba,20,Ramanagara Town Police Station
+FIR/2024/HUB/00057,Hubballi-Dharwad,Kidnapping,359 IPC,2024-08-04,Open,Nitara Bakshi,Gaurangi Sabharwal,26,Hubballi-Dharwad Town Police Station
+FIR/2025/BEN/00058,Bengaluru Urban,Assault,351 IPC,2025-02-15,Under Investigation,Amara Dutta,Lavanya Barad,37,Bengaluru Urban Town Police Station
+FIR/2025/DHA/00059,Dharwad,Other,Others,2025-04-02,Open,Tristan Iyengar,Inaya Mody,18,Dharwad Town Police Station
+FIR/2024/HAS/00060,Hassan,Robbery,392 IPC,2024-08-28,Open,Udant Bajwa,Mohini Narasimhan,59,Hassan Town Police Station
+FIR/2025/HUB/00061,Hubballi-Dharwad,Property damage,425 IPC,2025-03-19,Open,Ekaraj Mallick,Yashodhara Ratta,18,Hubballi-Dharwad Town Police Station
+FIR/2024/YAD/00062,Yadgir,Other,Others,2024-04-21,Under Investigation,Ayaan D’Alia,Pranav Lanka,40,Yadgir Town Police Station
+FIR/2024/BEN/00063,Bengaluru Urban,Assault,351 IPC,2024-07-31,Under Investigation,Ikbal Saraf,Dipta Sarin,33,Bengaluru Urban Town Police Station
+FIR/2024/MAN/00064,Mangaluru,Property damage,425 IPC,2024-02-10,Open,Lekha Gupta,Chaitanya Sarin,29,Mangaluru Town Police Station
+FIR/2024/VIJ/00065,Vijayanagara,Kidnapping,359 IPC,2024-08-09,Under Investigation,Zinal Yohannan,Januja Sankar,18,Vijayanagara Town Police Station
+FIR/2024/BEN/00066,Bengaluru Urban,Sexual offences,375 IPC,2024-12-06,Open,Ganga Murthy,Charita Tripathi,30,Bengaluru Urban Town Police Station
+FIR/2024/KOP/00067,Koppal,Kidnapping,359 IPC,2024-12-05,Open,Nilima Narain,Chakrika Datta,20,Koppal Town Police Station
+FIR/2024/MYS/00068,Mysuru,Other,Others,2024-01-24,Open,Osha Raghavan,Charvi Ravi,37,Mysuru Town Police Station
+FIR/2024/RAM/00069,Ramanagara,Assault,351 IPC,2024-03-31,Open,Daksha Mangat,Qushi Nagy,43,Ramanagara Town Police Station
+FIR/2024/BEL/00070,Belagavi,Murder,302 IPC,2024-07-24,Under Investigation,Riya Sathe,Yasti Solanki,42,Belagavi Town Police Station
+FIR/2024/RAI/00071,Raichur,Theft,379 IPC,2024-12-31,Open,Frado Mander,Girik Keer,44,Raichur Town Police Station
+FIR/2025/UDU/00072,Udupi,Drug offences,21 NDPS Act,2025-05-02,Closed,Umang Issac,Aryan Batra,39,Udupi Town Police Station
+FIR/2024/GAD/00073,Gadag,Other,Others,2024-07-19,Under Investigation,Vaishnavi Bora,Oeshi Hayer,46,Gadag Town Police Station
+FIR/2025/MAN/00074,Mangaluru,Robbery,392 IPC,2025-02-27,Under Investigation,Warda Ratta,Manbir Ahluwalia,41,Mangaluru Town Police Station
+FIR/2024/HUB/00075,Hubballi-Dharwad,Other,Others,2024-02-22,Open,Pavani Kanda,Zarna Shetty,47,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00076,Bengaluru Urban,Robbery,392 IPC,2024-06-22,Under Investigation,Zaid Dara,Kiaan Shetty,53,Bengaluru Urban Town Police Station
+FIR/2024/BEL/00077,Belagavi,Robbery,392 IPC,2024-05-25,Open,Saanvi Thaman,Sanaya Dutt,23,Belagavi Town Police Station
+FIR/2025/UDU/00078,Udupi,Domestic violence,498A IPC,2025-03-28,Under Investigation,Shivani Lad,Aradhana Verma,27,Udupi Town Police Station
+FIR/2024/MYS/00079,Mysuru,Sexual offences,375 IPC,2024-10-20,Open,William Maharaj,Faras Mangal,45,Mysuru Town Police Station
+FIR/2024/CHI/00080,Chikkamagaluru,Assault,351 IPC,2024-07-10,Under Investigation,Anita Nayak,Faris Devi,41,Chikkamagaluru Town Police Station
+FIR/2024/RAM/00081,Ramanagara,Cybercrime,66C IT Act,2024-12-16,Under Investigation,Vihaan Rajagopal,Tanish Bhatt,32,Ramanagara Town Police Station
+FIR/2024/HUB/00082,Hubballi-Dharwad,Cybercrime,66C IT Act,2024-10-02,Open,Nikita Narayanan,Ojasvi Bhatia,18,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00083,Bengaluru Urban,Assault,351 IPC,2024-01-06,Closed,Osha Ramachandran,Lajita Sood,24,Bengaluru Urban Town Police Station
+FIR/2025/BEN/00084,Bengaluru Urban,Kidnapping,359 IPC,2025-05-08,Under Investigation,Indira Misra,Oni Yohannan,18,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00085,Bengaluru Urban,Murder,302 IPC,2024-05-31,Open,Vinaya Kanda,Rajata Sunder,18,Bengaluru Urban Town Police Station
+FIR/2025/HAS/00086,Hassan,Assault,351 IPC,2025-05-03,Under Investigation,Lopa Nayar,Noah Sibal,56,Hassan Town Police Station
+FIR/2025/VIJ/00087,Vijayanagara,Sexual offences,375 IPC,2025-01-27,Under Investigation,Avi Ramesh,Fiyaz Sangha,39,Vijayanagara Town Police Station
+FIR/2024/MYS/00088,Mysuru,Kidnapping,359 IPC,2024-08-07,Open,Triya Gopal,Abha Raghavan,45,Mysuru Town Police Station
+FIR/2024/MYS/00089,Mysuru,Murder,302 IPC,2024-04-30,Open,Siddharth Sha,Geetika Raghavan,32,Mysuru Town Police Station
+FIR/2025/CHA/00090,Chamarajanagar,Fraud,420 IPC,2025-02-23,Closed,Oviya Krishnan,Upma Bahl,26,Chamarajanagar Town Police Station
+FIR/2024/MAN/00091,Mandya,Fraud,420 IPC,2024-12-29,Open,Inaya Kapur,Banjeet Balasubramanian,32,Mandya Town Police Station
+FIR/2024/BEL/00092,Belagavi,Robbery,392 IPC,2024-05-10,Open,Ryan Bahri,William Date,54,Belagavi Town Police Station
+FIR/2025/MAN/00093,Mandya,Sexual offences,375 IPC,2025-01-19,Under Investigation,Ishwar Kamdar,Aahana Pillay,40,Mandya Town Police Station
+FIR/2024/HUB/00094,Hubballi-Dharwad,Sexual offences,375 IPC,2024-07-12,Open,Ishwar Gade,Hritik Bal,30,Hubballi-Dharwad Town Police Station
+FIR/2025/VIJ/00095,Vijayanagara,Other,Others,2025-05-19,Open,Keya Ranganathan,Faqid Kibe,40,Vijayanagara Town Police Station
+FIR/2025/BEL/00096,Belagavi,Fraud,420 IPC,2025-04-22,Closed,Charvi Dara,Idika Walia,45,Belagavi Town Police Station
+FIR/2024/BEN/00097,Bengaluru Urban,Sexual offences,375 IPC,2024-04-21,Open,Kamala Biswas,Advik Salvi,22,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00098,Bengaluru Rural,Fraud,420 IPC,2024-10-28,Closed,Hitesh Sant,Tripti Dua,61,Bengaluru Rural Town Police Station
+FIR/2024/HUB/00099,Hubballi-Dharwad,Other,Others,2024-11-29,Open,Patrick Vig,Veda Shroff,25,Hubballi-Dharwad Town Police Station
+FIR/2024/HUB/00100,Hubballi-Dharwad,Other,Others,2024-02-10,Closed,Amrita Naidu,Gabriel Mallick,18,Hubballi-Dharwad Town Police Station
+FIR/2024/GAD/00101,Gadag,Other,Others,2024-05-19,Open,Yagnesh Shetty,Gayathri Balakrishnan,39,Gadag Town Police Station
+FIR/2025/BEN/00102,Bengaluru Urban,Fraud,420 IPC,2025-05-05,Under Investigation,Ekta Gopal,Simon Pant,19,Bengaluru Urban Town Police Station
+FIR/2025/HAV/00103,Haveri,Theft,379 IPC,2025-03-23,Open,Harini Mammen,Advaith Varughese,31,Haveri Town Police Station
+FIR/2024/MAN/00104,Mandya,Theft,379 IPC,2024-11-08,Closed,Frederick Khurana,Vrinda Khosla,38,Mandya Town Police Station
+FIR/2025/BEL/00105,Belagavi,Fraud,420 IPC,2025-03-03,Open,Vritti Sem,Girik Menon,21,Belagavi Town Police Station
+FIR/2024/BEN/00106,Bengaluru Urban,Sexual offences,375 IPC,2024-08-02,Open,Nidhi Kohli,Jyoti Solanki,35,Bengaluru Urban Town Police Station
+FIR/2025/MAN/00107,Mandya,Murder,302 IPC,2025-01-25,Open,Pavani Narayanan,Sudiksha Madan,35,Mandya Town Police Station
+FIR/2024/HUB/00108,Hubballi-Dharwad,Sexual offences,375 IPC,2024-03-07,Closed,Zayan Kashyap,Reyansh Mutti,18,Hubballi-Dharwad Town Police Station
+FIR/2025/HAS/00109,Hassan,Theft,379 IPC,2025-01-24,Open,Qasim Handa,Veda Malhotra,38,Hassan Town Police Station
+FIR/2025/DAV/00110,Davangere,Fraud,420 IPC,2025-03-04,Open,Harish Hari,Utkarsh Patel,26,Davangere Town Police Station
+FIR/2024/GAD/00111,Gadag,Other,Others,2024-10-16,Under Investigation,Chasmum Atwal,Anusha Bath,22,Gadag Town Police Station
+FIR/2024/BEN/00112,Bengaluru Urban,Murder,302 IPC,2024-11-16,Under Investigation,Brinda Date,Harshil Arora,31,Bengaluru Urban Town Police Station
+FIR/2024/HUB/00113,Hubballi-Dharwad,Fraud,420 IPC,2024-11-14,Closed,Upasna Srinivas,Harini Gour,54,Hubballi-Dharwad Town Police Station
+FIR/2025/SHI/00114,Shivamogga,Robbery,392 IPC,2025-04-11,Open,Zayyan Sridhar,Dhruv Rattan,50,Shivamogga Town Police Station
+FIR/2025/KAL/00115,Kalaburagi,Drug offences,21 NDPS Act,2025-04-14,Open,Ethan Bera,Manthan Modi,57,Kalaburagi Town Police Station
+FIR/2025/CHI/00116,Chitradurga,Property damage,425 IPC,2025-04-23,Open,Yuvraj Dani,Upkaar Virk,37,Chitradurga Town Police Station
+FIR/2024/HUB/00117,Hubballi-Dharwad,Drug offences,21 NDPS Act,2024-01-24,Under Investigation,Shravya Savant,Pushti Mody,21,Hubballi-Dharwad Town Police Station
+FIR/2024/VIJ/00118,Vijayapura,Domestic violence,498A IPC,2024-02-09,Open,Hardik Johal,Aishani Bumb,27,Vijayapura Town Police Station
+FIR/2024/MYS/00119,Mysuru,Domestic violence,498A IPC,2024-03-12,Under Investigation,Wriddhish Ghose,Naksh Agate,28,Mysuru Town Police Station
+FIR/2024/CHI/00120,Chikkaballapura,Robbery,392 IPC,2024-09-22,Closed,Shravya Singhal,Bachittar Kata,22,Chikkaballapura Town Police Station
+FIR/2024/TUM/00121,Tumakuru,Robbery,392 IPC,2024-01-22,Open,Barkha Setty,Vivaan Lalla,25,Tumakuru Town Police Station
+FIR/2024/BEN/00122,Bengaluru Urban,Cybercrime,66C IT Act,2024-10-02,Open,Pavani Contractor,Manthan Lata,28,Bengaluru Urban Town Police Station
+FIR/2024/CHI/00123,Chikkaballapura,Cybercrime,66C IT Act,2024-09-16,Under Investigation,Ekbal Bhasin,Damyanti Mani,26,Chikkaballapura Town Police Station
+FIR/2024/CHA/00124,Chamarajanagar,Cybercrime,66C IT Act,2024-05-22,Under Investigation,Jeet Sidhu,Neha Magar,37,Chamarajanagar Town Police Station
+FIR/2024/KOD/00125,Kodagu,Assault,351 IPC,2024-04-18,Open,Raksha Buch,Rachana Naidu,63,Kodagu Town Police Station
+FIR/2025/BEL/00126,Belagavi,Drug offences,21 NDPS Act,2025-01-06,Open,Atharv Chand,Ansh Luthra,31,Belagavi Town Police Station
+FIR/2025/MYS/00127,Mysuru,Robbery,392 IPC,2025-01-03,Under Investigation,Parth Singhal,Arunima Golla,71,Mysuru Town Police Station
+FIR/2024/MYS/00128,Mysuru,Property damage,425 IPC,2024-07-01,Open,Vyanjana Chand,Ijaya Rege,48,Mysuru Town Police Station
+FIR/2024/MYS/00129,Mysuru,Kidnapping,359 IPC,2024-07-13,Open,Ekani Cheema,Forum Sabharwal,22,Mysuru Town Police Station
+FIR/2024/BEL/00130,Belagavi,Other,Others,2024-04-30,Open,Bhavya Rattan,Suhani Chakrabarti,27,Belagavi Town Police Station
+FIR/2025/MAN/00131,Mangaluru,Property damage,425 IPC,2025-02-11,Open,Zayyan Naik,Netra Varkey,35,Mangaluru Town Police Station
+FIR/2024/BAL/00132,Ballari,Drug offences,21 NDPS Act,2024-10-29,Open,Turvi Sachdev,Raghav Vasa,24,Ballari Town Police Station
+FIR/2024/BEL/00133,Belagavi,Murder,302 IPC,2024-07-06,Under Investigation,Wishi Sathe,Samar Loke,18,Belagavi Town Police Station
+FIR/2025/BEN/00134,Bengaluru Rural,Murder,302 IPC,2025-04-26,Open,Bhavna Sarma,Jairaj Balakrishnan,46,Bengaluru Rural Town Police Station
+FIR/2024/HUB/00135,Hubballi-Dharwad,Fraud,420 IPC,2024-05-06,Open,Nathan Mukhopadhyay,Nikita Chander,27,Hubballi-Dharwad Town Police Station
+FIR/2025/MYS/00136,Mysuru,Kidnapping,359 IPC,2025-03-10,Open,Ishaan Shenoy,Mitesh Tara,24,Mysuru Town Police Station
+FIR/2025/BEN/00137,Bengaluru Urban,Murder,302 IPC,2025-05-21,Open,Yashodhara Mahajan,Vasudha Sodhi,39,Bengaluru Urban Town Police Station
+FIR/2025/CHA/00138,Chamarajanagar,Fraud,420 IPC,2025-05-18,Open,Tanmayi Dhillon,Rayaan Trivedi,33,Chamarajanagar Town Police Station
+FIR/2025/CHI/00139,Chikkamagaluru,Sexual offences,375 IPC,2025-01-05,Open,Ekaraj Majumdar,Harini Tripathi,49,Chikkamagaluru Town Police Station
+FIR/2024/HUB/00140,Hubballi-Dharwad,Property damage,425 IPC,2024-06-16,Open,Aarnav Mandal,Vrishti Dixit,33,Hubballi-Dharwad Town Police Station
+FIR/2024/KAL/00141,Kalaburagi,Cybercrime,66C IT Act,2024-09-30,Under Investigation,Veda Pai,Krishna Shah,32,Kalaburagi Town Police Station
+FIR/2024/KAL/00142,Kalaburagi,Assault,351 IPC,2024-06-14,Open,Ranbir Khare,Vivaan Roy,36,Kalaburagi Town Police Station
+FIR/2024/BEL/00143,Belagavi,Drug offences,21 NDPS Act,2024-03-10,Open,Eesha Solanki,Libni Doshi,27,Belagavi Town Police Station
+FIR/2024/UDU/00144,Udupi,Cybercrime,66C IT Act,2024-03-01,Open,Balhaar Date,Harish Sarraf,44,Udupi Town Police Station
+FIR/2024/TUM/00145,Tumakuru,Robbery,392 IPC,2024-06-29,Closed,Tanmayi Aurora,Nimrat Dubey,39,Tumakuru Town Police Station
+FIR/2024/HAV/00146,Haveri,Other,Others,2024-07-14,Closed,Upasna Lanka,Mitali Buch,27,Haveri Town Police Station
+FIR/2025/CHI/00147,Chikkamagaluru,Other,Others,2025-03-10,Open,Lajita Nadig,Balendra Biswas,27,Chikkamagaluru Town Police Station
+FIR/2024/MYS/00148,Mysuru,Murder,302 IPC,2024-04-06,Open,Bhavna Karan,Radha Chaudhari,42,Mysuru Town Police Station
+FIR/2024/RAI/00149,Raichur,Assault,351 IPC,2024-06-12,Open,Sachi Ganesan,Ayush Batra,28,Raichur Town Police Station
+FIR/2024/DHA/00150,Dharwad,Robbery,392 IPC,2024-11-18,Open,Daksh Memon,Kavya Sankar,57,Dharwad Town Police Station
+FIR/2024/MAN/00151,Mangaluru,Cybercrime,66C IT Act,2024-04-29,Under Investigation,Yash Wali,Pranit Garde,44,Mangaluru Town Police Station
+FIR/2024/BAG/00152,Bagalkot,Robbery,392 IPC,2024-10-07,Open,Farhan Raja,Widisha Dhar,18,Bagalkot Town Police Station
+FIR/2024/BEL/00153,Belagavi,Robbery,392 IPC,2024-06-21,Open,Triya Kumar,Aadhya Andra,41,Belagavi Town Police Station
+FIR/2024/DAV/00154,Davangere,Kidnapping,359 IPC,2024-10-22,Closed,Bhavna Dugar,Riya Pai,49,Davangere Town Police Station
+FIR/2025/KOD/00155,Kodagu,Murder,302 IPC,2025-02-05,Open,Panini Krishna,Chasmum Issac,42,Kodagu Town Police Station
+FIR/2024/MAN/00156,Mangaluru,Property damage,425 IPC,2024-06-25,Under Investigation,Vasudha Chhabra,Lakshmi Parmer,24,Mangaluru Town Police Station
+FIR/2024/MYS/00157,Mysuru,Assault,351 IPC,2024-08-23,Under Investigation,Chakrika Bains,Anvi Anand,73,Mysuru Town Police Station
+FIR/2025/MAN/00158,Mangaluru,Assault,351 IPC,2025-01-07,Under Investigation,Watika Mangat,Indira Kanda,37,Mangaluru Town Police Station
+FIR/2024/BID/00159,Bidar,Robbery,392 IPC,2024-10-18,Under Investigation,Zashil Devan,Balveer More,49,Bidar Town Police Station
+FIR/2024/KOP/00160,Koppal,Drug offences,21 NDPS Act,2024-10-28,Open,Bahadurjit Patla,Gautam Merchant,39,Koppal Town Police Station
+FIR/2024/MAN/00161,Mangaluru,Domestic violence,498A IPC,2024-03-20,Open,Ojasvi Gill,Kevin Zacharia,64,Mangaluru Town Police Station
+FIR/2024/BEN/00162,Bengaluru Urban,Other,Others,2024-11-01,Open,Yachana Mahajan,Aarini Subramaniam,36,Bengaluru Urban Town Police Station
+FIR/2025/BAG/00163,Bagalkot,Murder,302 IPC,2025-04-21,Under Investigation,Hamsini Contractor,Faqid Dhaliwal,38,Bagalkot Town Police Station
+FIR/2024/TUM/00164,Tumakuru,Fraud,420 IPC,2024-02-09,Open,Mekhala Pau,Megha Atwal,21,Tumakuru Town Police Station
+FIR/2024/RAM/00165,Ramanagara,Domestic violence,498A IPC,2024-08-20,Open,Jatin Sha,Adweta Raj,35,Ramanagara Town Police Station
+FIR/2024/BAL/00166,Ballari,Murder,302 IPC,2024-07-14,Under Investigation,Hritik Kaur,Aryan Narang,48,Ballari Town Police Station
+FIR/2024/HUB/00167,Hubballi-Dharwad,Sexual offences,375 IPC,2024-01-03,Open,Dev Shetty,Nilima Dada,45,Hubballi-Dharwad Town Police Station
+FIR/2024/BAG/00168,Bagalkot,Theft,379 IPC,2024-09-17,Open,Chakradev Barad,Waida D’Alia,45,Bagalkot Town Police Station
+FIR/2024/BAL/00169,Ballari,Domestic violence,498A IPC,2024-08-21,Open,Wahab Yogi,Lipika Setty,34,Ballari Town Police Station
+FIR/2024/MYS/00170,Mysuru,Kidnapping,359 IPC,2024-03-26,Open,Oni Dubey,Hardik Suri,47,Mysuru Town Police Station
+FIR/2024/HUB/00171,Hubballi-Dharwad,Property damage,425 IPC,2024-01-07,Under Investigation,Ati Bali,Teerth Sawhney,26,Hubballi-Dharwad Town Police Station
+FIR/2024/MYS/00172,Mysuru,Assault,351 IPC,2024-08-24,Open,Warinder Patil,Jhalak Parmer,36,Mysuru Town Police Station
+FIR/2024/MYS/00173,Mysuru,Kidnapping,359 IPC,2024-11-03,Open,Mitali Majumdar,Jason Sha,48,Mysuru Town Police Station
+FIR/2025/KOD/00174,Kodagu,Domestic violence,498A IPC,2025-02-16,Open,Simon Bail,Gauri Kohli,62,Kodagu Town Police Station
+FIR/2024/BEL/00175,Belagavi,Drug offences,21 NDPS Act,2024-10-30,Open,Samesh Biswas,Tarak Kaul,28,Belagavi Town Police Station
+FIR/2024/DHA/00176,Dharwad,Theft,379 IPC,2024-09-02,Open,Manbir Agate,Maanav De,48,Dharwad Town Police Station
+FIR/2024/SHI/00177,Shivamogga,Assault,351 IPC,2024-04-03,Under Investigation,Owen Choudhary,Karan Aurora,33,Shivamogga Town Police Station
+FIR/2025/HUB/00178,Hubballi-Dharwad,Theft,379 IPC,2025-01-23,Open,Wazir Naik,Owen Lanka,46,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00179,Bengaluru Urban,Kidnapping,359 IPC,2024-05-11,Open,Jonathan Sama,Devansh Soni,50,Bengaluru Urban Town Police Station
+FIR/2024/KAL/00180,Kalaburagi,Drug offences,21 NDPS Act,2024-02-23,Under Investigation,Janaki Varghese,Siya Thakur,41,Kalaburagi Town Police Station
+FIR/2024/HUB/00181,Hubballi-Dharwad,Theft,379 IPC,2024-11-13,Under Investigation,Caleb Verma,Tara Balasubramanian,35,Hubballi-Dharwad Town Police Station
+FIR/2025/GAD/00182,Gadag,Assault,351 IPC,2025-05-02,Open,Varenya Ratti,Hritik Swaminathan,35,Gadag Town Police Station
+FIR/2025/MAN/00183,Mangaluru,Kidnapping,359 IPC,2025-04-07,Open,Ethan Buch,Manbir Bhatti,18,Mangaluru Town Police Station
+FIR/2024/CHI/00184,Chikkaballapura,Murder,302 IPC,2024-06-25,Open,Anvi Nair,Chaitaly Setty,56,Chikkaballapura Town Police Station
+FIR/2024/BEL/00185,Belagavi,Kidnapping,359 IPC,2024-01-18,Under Investigation,Hardik Contractor,Qushi Seth,49,Belagavi Town Police Station
+FIR/2024/BEL/00186,Belagavi,Murder,302 IPC,2024-05-31,Closed,Odika Nori,Mohini Sagar,26,Belagavi Town Police Station
+FIR/2024/MAN/00187,Mandya,Drug offences,21 NDPS Act,2024-02-28,Open,Dhriti Sane,Aadhya Prasad,34,Mandya Town Police Station
+FIR/2025/MYS/00188,Mysuru,Theft,379 IPC,2025-01-15,Open,Urvi Bhavsar,Frederick Chander,38,Mysuru Town Police Station
+FIR/2024/RAI/00189,Raichur,Kidnapping,359 IPC,2024-04-22,Under Investigation,Gopal Pradhan,Darpan Narayan,18,Raichur Town Police Station
+FIR/2024/MAN/00190,Mangaluru,Property damage,425 IPC,2024-09-28,Open,Nirja Pandya,Charan Mani,18,Mangaluru Town Police Station
+FIR/2024/SHI/00191,Shivamogga,Sexual offences,375 IPC,2024-09-13,Under Investigation,Indira Chawla,Mohammed Subramaniam,41,Shivamogga Town Police Station
+FIR/2024/MYS/00192,Mysuru,Fraud,420 IPC,2024-03-11,Closed,Hritik Palla,Ishwar Mallick,38,Mysuru Town Police Station
+FIR/2024/TUM/00193,Tumakuru,Sexual offences,375 IPC,2024-09-12,Open,Pushti Bal,Ayush Gole,46,Tumakuru Town Police Station
+FIR/2024/YAD/00194,Yadgir,Murder,302 IPC,2024-07-16,Open,Dayamai Nori,Abeer Golla,30,Yadgir Town Police Station
+FIR/2024/TUM/00195,Tumakuru,Property damage,425 IPC,2024-02-05,Under Investigation,Nandini Boase,Azaan Chand,37,Tumakuru Town Police Station
+FIR/2025/MAN/00196,Mangaluru,Assault,351 IPC,2025-01-06,Open,Krisha Saini,Harita Dugar,23,Mangaluru Town Police Station
+FIR/2024/HAS/00197,Hassan,Fraud,420 IPC,2024-03-10,Open,Devika Nair,Charles Dugal,66,Hassan Town Police Station
+FIR/2024/HUB/00198,Hubballi-Dharwad,Assault,351 IPC,2024-03-24,Under Investigation,Chandran Bumb,Saanvi Samra,39,Hubballi-Dharwad Town Police Station
+FIR/2024/MAN/00199,Mangaluru,Sexual offences,375 IPC,2024-02-08,Under Investigation,Riya Sachdeva,Tanveer Vala,22,Mangaluru Town Police Station
+FIR/2024/MAN/00200,Mangaluru,Domestic violence,498A IPC,2024-11-04,Open,Hemani Sani,Bhanumati Sur,46,Mangaluru Town Police Station
+FIR/2025/VIJ/00201,Vijayanagara,Cybercrime,66C IT Act,2025-05-05,Open,Chakradev Kannan,Christopher Amble,27,Vijayanagara Town Police Station
+FIR/2025/MYS/00202,Mysuru,Drug offences,21 NDPS Act,2025-01-26,Under Investigation,Charvi Kakar,Aadhya Mann,44,Mysuru Town Police Station
+FIR/2024/RAI/00203,Raichur,Drug offences,21 NDPS Act,2024-05-08,Open,Jagdish Amble,Qushi Gill,46,Raichur Town Police Station
+FIR/2024/HUB/00204,Hubballi-Dharwad,Property damage,425 IPC,2024-01-27,Under Investigation,Lajita Walia,Xiti Pandya,36,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00205,Bengaluru Rural,Property damage,425 IPC,2024-10-20,Closed,Mekhala Basak,Anirudh Sharaf,28,Bengaluru Rural Town Police Station
+FIR/2025/BEN/00206,Bengaluru Urban,Murder,302 IPC,2025-01-12,Open,Dhriti Sanghvi,Omisha Mann,32,Bengaluru Urban Town Police Station
+FIR/2025/CHI/00207,Chitradurga,Assault,351 IPC,2025-03-11,Open,Nidhi Bail,Onveer Sharma,23,Chitradurga Town Police Station
+FIR/2024/YAD/00208,Yadgir,Cybercrime,66C IT Act,2024-12-01,Open,Gaurang Sarkar,Yagnesh Sarin,24,Yadgir Town Police Station
+FIR/2024/CHI/00209,Chikkaballapura,Domestic violence,498A IPC,2024-06-24,Under Investigation,Farhan Randhawa,Harinakshi Kant,67,Chikkaballapura Town Police Station
+FIR/2024/BEN/00210,Bengaluru Urban,Drug offences,21 NDPS Act,2024-10-05,Under Investigation,Om Bose,Yashvi Hari,47,Bengaluru Urban Town Police Station
+FIR/2025/CHI/00211,Chikkaballapura,Property damage,425 IPC,2025-03-28,Open,Indali Divan,Harshil Dhingra,18,Chikkaballapura Town Police Station
+FIR/2025/MAN/00212,Mangaluru,Theft,379 IPC,2025-02-01,Under Investigation,Rudra Ghose,Faqid Goel,35,Mangaluru Town Police Station
+FIR/2024/BEN/00213,Bengaluru Rural,Assault,351 IPC,2024-01-28,Open,Ucchal Sen,Diya Dora,34,Bengaluru Rural Town Police Station
+FIR/2025/BAL/00214,Ballari,Other,Others,2025-05-22,Under Investigation,Ekansh Singh,Chavvi Maharaj,28,Ballari Town Police Station
+FIR/2024/MAN/00215,Mangaluru,Kidnapping,359 IPC,2024-09-26,Under Investigation,Indira Tripathi,Dayita Shenoy,34,Mangaluru Town Police Station
+FIR/2024/HUB/00216,Hubballi-Dharwad,Theft,379 IPC,2024-12-24,Open,Baljiwan Bhandari,Bhavini Bose,18,Hubballi-Dharwad Town Police Station
+FIR/2025/HAS/00217,Hassan,Other,Others,2025-05-08,Under Investigation,Yashica Rajagopalan,Benjamin Sengupta,20,Hassan Town Police Station
+FIR/2024/HUB/00218,Hubballi-Dharwad,Other,Others,2024-08-03,Under Investigation,Ekanta Soni,David Seshadri,34,Hubballi-Dharwad Town Police Station
+FIR/2025/TUM/00219,Tumakuru,Sexual offences,375 IPC,2025-01-18,Open,Hemal Chad,Balveer Kota,43,Tumakuru Town Police Station
+FIR/2024/MAN/00220,Mangaluru,Fraud,420 IPC,2024-11-09,Open,Reva Viswanathan,Januja Pradhan,27,Mangaluru Town Police Station
+FIR/2025/HUB/00221,Hubballi-Dharwad,Cybercrime,66C IT Act,2025-05-08,Under Investigation,Lila Rege,Charles Natt,28,Hubballi-Dharwad Town Police Station
+FIR/2025/GAD/00222,Gadag,Fraud,420 IPC,2025-05-15,Under Investigation,Forum Chandra,Bhanumati Krishnan,30,Gadag Town Police Station
+FIR/2024/KOD/00223,Kodagu,Cybercrime,66C IT Act,2024-03-20,Under Investigation,Gauri Bumb,Inaya Mukherjee,20,Kodagu Town Police Station
+FIR/2025/HUB/00224,Hubballi-Dharwad,Drug offences,21 NDPS Act,2025-01-20,Open,Kai Chad,Krisha Narasimhan,18,Hubballi-Dharwad Town Police Station
+FIR/2024/HUB/00225,Hubballi-Dharwad,Sexual offences,375 IPC,2024-01-23,Under Investigation,Girik Sampath,Andrew Patil,24,Hubballi-Dharwad Town Police Station
+FIR/2025/BEN/00226,Bengaluru Urban,Drug offences,21 NDPS Act,2025-04-25,Under Investigation,Pranit Kala,Vedika Handa,23,Bengaluru Urban Town Police Station
+FIR/2025/BEN/00227,Bengaluru Urban,Domestic violence,498A IPC,2025-01-08,Open,Laksh Dubey,Chakrika Chaudhuri,24,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00228,Bengaluru Urban,Other,Others,2024-02-26,Under Investigation,Gayathri Deep,Mitesh Gaba,35,Bengaluru Urban Town Police Station
+FIR/2024/BAG/00229,Bagalkot,Robbery,392 IPC,2024-06-28,Under Investigation,Noah Sarma,Nirja Patla,47,Bagalkot Town Police Station
+FIR/2025/VIJ/00230,Vijayapura,Cybercrime,66C IT Act,2025-03-29,Under Investigation,Sachi Mane,Vivaan Walla,46,Vijayapura Town Police Station
+FIR/2024/CHA/00231,Chamarajanagar,Sexual offences,375 IPC,2024-06-21,Open,Dayamai Singh,Jhalak Sastry,40,Chamarajanagar Town Police Station
+FIR/2024/HAV/00232,Haveri,Assault,351 IPC,2024-11-15,Under Investigation,Baghyawati Raja,Neel Iyengar,32,Haveri Town Police Station
+FIR/2024/BEL/00233,Belagavi,Kidnapping,359 IPC,2024-03-23,Under Investigation,Zashil Ben,Kamya Chauhan,36,Belagavi Town Police Station
+FIR/2024/YAD/00234,Yadgir,Other,Others,2024-01-04,Open,Bhavani Chacko,Anjali Sengupta,37,Yadgir Town Police Station
+FIR/2025/RAI/00235,Raichur,Theft,379 IPC,2025-01-02,Under Investigation,Rajeshri Chand,Shravya Palla,52,Raichur Town Police Station
+FIR/2024/MYS/00236,Mysuru,Kidnapping,359 IPC,2024-10-06,Closed,Oeshi Bera,Yadavi Prakash,37,Mysuru Town Police Station
+FIR/2024/BEL/00237,Belagavi,Other,Others,2024-04-02,Under Investigation,Libni Bumb,Udarsh Bala,28,Belagavi Town Police Station
+FIR/2024/MAN/00238,Mandya,Assault,351 IPC,2024-06-04,Under Investigation,Hardik Nayak,Laksh Barad,40,Mandya Town Police Station
+FIR/2024/BEN/00239,Bengaluru Urban,Property damage,425 IPC,2024-09-01,Open,Urmi Dewan,Saumya Ahluwalia,59,Bengaluru Urban Town Police Station
+FIR/2024/BAL/00240,Ballari,Other,Others,2024-01-13,Open,Anirudh Kunda,Mason Wable,26,Ballari Town Police Station
+FIR/2024/BEL/00241,Belagavi,Robbery,392 IPC,2024-05-10,Open,Indrajit Mani,Charvi Dara,33,Belagavi Town Police Station
+FIR/2024/KOP/00242,Koppal,Robbery,392 IPC,2024-08-20,Open,William Saini,Dev Choudhry,20,Koppal Town Police Station
+FIR/2024/CHI/00243,Chitradurga,Domestic violence,498A IPC,2024-04-23,Open,Amol Varma,Maanas Manne,48,Chitradurga Town Police Station
+FIR/2025/HUB/00244,Hubballi-Dharwad,Cybercrime,66C IT Act,2025-05-12,Open,Aarav Pandit,Omaja Grover,50,Hubballi-Dharwad Town Police Station
+FIR/2024/CHI/00245,Chikkamagaluru,Murder,302 IPC,2024-11-25,Open,Jalsa Bir,Madhavi Singhal,45,Chikkamagaluru Town Police Station
+FIR/2024/HUB/00246,Hubballi-Dharwad,Robbery,392 IPC,2024-01-17,Under Investigation,Lila Prakash,Amol Parikh,32,Hubballi-Dharwad Town Police Station
+FIR/2024/BEL/00247,Belagavi,Other,Others,2024-09-01,Closed,Hemani Khosla,Gaurangi Deol,38,Belagavi Town Police Station
+FIR/2025/MAN/00248,Mandya,Domestic violence,498A IPC,2025-03-11,Under Investigation,Indira Nigam,Ucchal Srinivas,32,Mandya Town Police Station
+FIR/2024/RAI/00249,Raichur,Other,Others,2024-01-17,Closed,Krishna Bhatnagar,Balhaar Memon,49,Raichur Town Police Station
+FIR/2024/MAN/00250,Mangaluru,Kidnapping,359 IPC,2024-03-05,Under Investigation,Caleb Iyengar,Diya Mukherjee,40,Mangaluru Town Police Station
+FIR/2024/MAN/00251,Mangaluru,Fraud,420 IPC,2024-04-26,Open,Urvashi Kulkarni,Rayaan Mangal,19,Mangaluru Town Police Station
+FIR/2024/BAL/00252,Ballari,Drug offences,21 NDPS Act,2024-06-09,Open,Champak Narula,Jeet Pillai,48,Ballari Town Police Station
+FIR/2024/BEN/00253,Bengaluru Urban,Theft,379 IPC,2024-11-18,Closed,Mugdha Sarraf,Harinakshi Grover,54,Bengaluru Urban Town Police Station
+FIR/2024/CHI/00254,Chikkamagaluru,Domestic violence,498A IPC,2024-12-24,Under Investigation,Widisha Pillai,Fitan Samra,23,Chikkamagaluru Town Police Station
+FIR/2024/HUB/00255,Hubballi-Dharwad,Sexual offences,375 IPC,2024-10-21,Open,Qushi Gole,Ekani Chauhan,34,Hubballi-Dharwad Town Police Station
+FIR/2024/MAN/00256,Mangaluru,Other,Others,2024-12-28,Open,Falak Merchant,Sanaya Sandhu,24,Mangaluru Town Police Station
+FIR/2025/BEL/00257,Belagavi,Cybercrime,66C IT Act,2025-03-01,Open,Sachi Panchal,Brijesh Pandit,35,Belagavi Town Police Station
+FIR/2024/BEL/00258,Belagavi,Fraud,420 IPC,2024-10-19,Under Investigation,Anvi Bhandari,Nidra Patla,28,Belagavi Town Police Station
+FIR/2025/MYS/00259,Mysuru,Cybercrime,66C IT Act,2025-05-05,Open,Azaan Dhar,Bakhshi Date,41,Mysuru Town Police Station
+FIR/2025/CHI/00260,Chikkaballapura,Sexual offences,375 IPC,2025-04-28,Open,Warinder Peri,Leela Bali,56,Chikkaballapura Town Police Station
+FIR/2025/CHA/00261,Chamarajanagar,Theft,379 IPC,2025-01-16,Under Investigation,Shivani Prabhakar,Sachi Bose,41,Chamarajanagar Town Police Station
+FIR/2025/MAN/00262,Mangaluru,Domestic violence,498A IPC,2025-04-06,Open,Jeevika Rao,Arya Krish,50,Mangaluru Town Police Station
+FIR/2024/GAD/00263,Gadag,Property damage,425 IPC,2024-09-05,Open,Atharv Grewal,Zarna Ram,32,Gadag Town Police Station
+FIR/2024/CHI/00264,Chikkamagaluru,Other,Others,2024-05-07,Open,Adweta Lad,Tanish Mangal,20,Chikkamagaluru Town Police Station
+FIR/2024/CHA/00265,Chamarajanagar,Property damage,425 IPC,2024-06-18,Open,Ryan Das,Ethan Seth,41,Chamarajanagar Town Police Station
+FIR/2024/MAN/00266,Mangaluru,Robbery,392 IPC,2024-03-24,Open,Sai Chahal,Idika Bhattacharyya,39,Mangaluru Town Police Station
+FIR/2025/BID/00267,Bidar,Murder,302 IPC,2025-05-29,Closed,Charita Dugar,Janaki Trivedi,21,Bidar Town Police Station
+FIR/2024/UDU/00268,Udupi,Fraud,420 IPC,2024-01-16,Open,Jairaj Iyer,Warjas Tak,41,Udupi Town Police Station
+FIR/2025/MAN/00269,Mangaluru,Murder,302 IPC,2025-01-10,Under Investigation,Jalsa Pillay,Kai Chadha,18,Mangaluru Town Police Station
+FIR/2024/BEL/00270,Belagavi,Assault,351 IPC,2024-09-17,Open,Dayamai Rao,Nirja Rout,24,Belagavi Town Police Station
+FIR/2024/KAL/00271,Kalaburagi,Sexual offences,375 IPC,2024-08-14,Under Investigation,Jeremiah Nadig,Shivani Shukla,47,Kalaburagi Town Police Station
+FIR/2024/BAG/00272,Bagalkot,Fraud,420 IPC,2024-12-03,Closed,Kabir Gopal,Rachita Thakkar,34,Bagalkot Town Police Station
+FIR/2024/HUB/00273,Hubballi-Dharwad,Other,Others,2024-07-17,Open,Jeet Vasa,Daksha Gala,29,Hubballi-Dharwad Town Police Station
+FIR/2025/MAN/00274,Mandya,Assault,351 IPC,2025-04-14,Open,Ekantika Kar,Zilmil Mander,42,Mandya Town Police Station
+FIR/2025/HUB/00275,Hubballi-Dharwad,Theft,379 IPC,2025-01-14,Open,Zashil Hegde,Jeremiah Mitter,31,Hubballi-Dharwad Town Police Station
+FIR/2024/HUB/00276,Hubballi-Dharwad,Other,Others,2024-07-27,Open,Yadavi Ganguly,Onveer Nazareth,56,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00277,Bengaluru Urban,Cybercrime,66C IT Act,2024-07-20,Closed,Ayush Bumb,Alka Kade,45,Bengaluru Urban Town Police Station
+FIR/2024/HUB/00278,Hubballi-Dharwad,Murder,302 IPC,2024-01-05,Open,Azaan Tank,Chasmum Subramanian,18,Hubballi-Dharwad Town Police Station
+FIR/2025/HUB/00279,Hubballi-Dharwad,Domestic violence,498A IPC,2025-03-31,Open,Nidra Mishra,Elijah Bhasin,53,Hubballi-Dharwad Town Police Station
+FIR/2024/BEL/00280,Belagavi,Property damage,425 IPC,2024-12-11,Open,Ria Sagar,Ucchal Jani,61,Belagavi Town Police Station
+FIR/2024/KOP/00281,Koppal,Sexual offences,375 IPC,2024-03-27,Open,Maanas Munshi,Hemani Rastogi,19,Koppal Town Police Station
+FIR/2024/BEN/00282,Bengaluru Urban,Murder,302 IPC,2024-07-03,Open,Kamala Varma,Eiravati Khurana,43,Bengaluru Urban Town Police Station
+FIR/2024/MAN/00283,Mangaluru,Fraud,420 IPC,2024-04-16,Open,Jason Loke,Yug Dhaliwal,46,Mangaluru Town Police Station
+FIR/2024/HUB/00284,Hubballi-Dharwad,Theft,379 IPC,2024-12-16,Open,Chandresh Mannan,Omya Kothari,29,Hubballi-Dharwad Town Police Station
+FIR/2024/BID/00285,Bidar,Robbery,392 IPC,2024-08-21,Closed,Falak Munshi,Nathaniel Tara,35,Bidar Town Police Station
+FIR/2024/BEN/00286,Bengaluru Urban,Property damage,425 IPC,2024-07-24,Open,Wishi Morar,Arin Chana,18,Bengaluru Urban Town Police Station
+FIR/2024/UDU/00287,Udupi,Theft,379 IPC,2024-10-22,Open,Yashasvi Shankar,Tanveer Pandit,41,Udupi Town Police Station
+FIR/2024/BEL/00288,Belagavi,Fraud,420 IPC,2024-03-13,Open,Chandresh Manda,Upma Mangal,48,Belagavi Town Police Station
+FIR/2024/HUB/00289,Hubballi-Dharwad,Kidnapping,359 IPC,2024-03-24,Open,Hritik Sankar,Aishani Pau,22,Hubballi-Dharwad Town Police Station
+FIR/2025/CHI/00290,Chikkamagaluru,Fraud,420 IPC,2025-03-23,Open,Jasmit Bath,Charan Hayer,45,Chikkamagaluru Town Police Station
+FIR/2024/KOP/00291,Koppal,Property damage,425 IPC,2024-01-10,Open,Bhavya Borah,Yamini Seshadri,40,Koppal Town Police Station
+FIR/2025/YAD/00292,Yadgir,Drug offences,21 NDPS Act,2025-01-31,Open,Jagat Dave,Meera Prakash,42,Yadgir Town Police Station
+FIR/2024/YAD/00293,Yadgir,Murder,302 IPC,2024-10-24,Open,Jasmit Dhawan,Yashodhara Ratti,36,Yadgir Town Police Station
+FIR/2024/MYS/00294,Mysuru,Fraud,420 IPC,2024-06-13,Under Investigation,Chakradev Barad,Gauri Som,31,Mysuru Town Police Station
+FIR/2024/MYS/00295,Mysuru,Theft,379 IPC,2024-12-08,Open,Manthan Varma,Falak Nagar,49,Mysuru Town Police Station
+FIR/2024/GAD/00296,Gadag,Theft,379 IPC,2024-11-05,Under Investigation,Maya Mistry,Yashica Upadhyay,44,Gadag Town Police Station
+FIR/2024/BEL/00297,Belagavi,Fraud,420 IPC,2024-11-30,Open,Chandani Soman,Jyoti Narula,30,Belagavi Town Police Station
+FIR/2024/RAI/00298,Raichur,Property damage,425 IPC,2024-07-23,Under Investigation,Omaja Morar,Urvi Lanka,23,Raichur Town Police Station
+FIR/2024/HUB/00299,Hubballi-Dharwad,Cybercrime,66C IT Act,2024-08-17,Open,Charan Srinivasan,Lajita Divan,18,Hubballi-Dharwad Town Police Station
+FIR/2024/BAL/00300,Ballari,Drug offences,21 NDPS Act,2024-12-10,Under Investigation,Azad Choudhary,Anirudh Sastry,18,Ballari Town Police Station
+FIR/2024/CHA/00301,Chamarajanagar,Theft,379 IPC,2024-11-30,Open,Omya Doshi,Samar Roy,18,Chamarajanagar Town Police Station
+FIR/2024/BAL/00302,Ballari,Other,Others,2024-09-02,Open,David Devi,Ekta Sridhar,18,Ballari Town Police Station
+FIR/2025/SHI/00303,Shivamogga,Theft,379 IPC,2025-01-08,Under Investigation,Dipta Ghose,Hema Pandya,56,Shivamogga Town Police Station
+FIR/2025/MAN/00304,Mangaluru,Murder,302 IPC,2025-04-08,Open,Veda Handa,Arya Misra,32,Mangaluru Town Police Station
+FIR/2024/MYS/00305,Mysuru,Assault,351 IPC,2024-05-12,Open,Chameli Mani,Vrinda Nadig,41,Mysuru Town Police Station
+FIR/2024/BEL/00306,Belagavi,Other,Others,2024-10-05,Open,Ikshita Mahal,Jairaj Raghavan,53,Belagavi Town Police Station
+FIR/2025/HUB/00307,Hubballi-Dharwad,Assault,351 IPC,2025-02-28,Open,Hemani Dhingra,Brijesh Mani,44,Hubballi-Dharwad Town Police Station
+FIR/2024/MYS/00308,Mysuru,Other,Others,2024-04-03,Open,Hiral Sathe,Varenya Kala,27,Mysuru Town Police Station
+FIR/2025/VIJ/00309,Vijayapura,Property damage,425 IPC,2025-04-18,Open,Anika Magar,Ikbal Khatri,38,Vijayapura Town Police Station
+FIR/2024/BEN/00310,Bengaluru Urban,Fraud,420 IPC,2024-10-10,Open,Chandresh Wali,Viraj Ben,40,Bengaluru Urban Town Police Station
+FIR/2024/TUM/00311,Tumakuru,Fraud,420 IPC,2024-09-22,Open,Odika Narayanan,Harish Devan,36,Tumakuru Town Police Station
+FIR/2024/CHI/00312,Chitradurga,Property damage,425 IPC,2024-03-31,Open,Nakul Ray,Vansha Iyengar,37,Chitradurga Town Police Station
+FIR/2025/SHI/00313,Shivamogga,Domestic violence,498A IPC,2025-02-06,Open,Ekani Mangal,Gaurav Kata,38,Shivamogga Town Police Station
+FIR/2024/YAD/00314,Yadgir,Other,Others,2024-12-12,Under Investigation,Parth Sahni,Balhaar Ranganathan,28,Yadgir Town Police Station
+FIR/2024/MAN/00315,Mangaluru,Murder,302 IPC,2024-03-27,Under Investigation,Quincy Mann,Aditya Misra,40,Mangaluru Town Police Station
+FIR/2024/CHA/00316,Chamarajanagar,Kidnapping,359 IPC,2024-10-03,Open,Gautami Mane,Wakeeta Desai,22,Chamarajanagar Town Police Station
+FIR/2024/HUB/00317,Hubballi-Dharwad,Domestic violence,498A IPC,2024-04-29,Open,Anjali Hans,Ganga Gaba,26,Hubballi-Dharwad Town Police Station
+FIR/2025/BAL/00318,Ballari,Sexual offences,375 IPC,2025-05-24,Open,Aarini Grewal,Geetika Merchant,25,Ballari Town Police Station
+FIR/2025/MAN/00319,Mangaluru,Kidnapping,359 IPC,2025-01-08,Open,Parth Ravi,Yutika Narang,54,Mangaluru Town Police Station
+FIR/2024/BEL/00320,Belagavi,Robbery,392 IPC,2024-11-07,Open,Nandini Chandran,Logan Sood,37,Belagavi Town Police Station
+FIR/2025/HUB/00321,Hubballi-Dharwad,Murder,302 IPC,2025-04-06,Open,Yuvraj Ahuja,Leela Keer,38,Hubballi-Dharwad Town Police Station
+FIR/2024/BEL/00322,Belagavi,Domestic violence,498A IPC,2024-06-26,Under Investigation,Amara Narayan,Advay Lal,49,Belagavi Town Police Station
+FIR/2024/HAS/00323,Hassan,Other,Others,2024-04-30,Open,Warinder Bhatia,Udyati Mohanty,32,Hassan Town Police Station
+FIR/2024/CHI/00324,Chikkaballapura,Theft,379 IPC,2024-11-11,Open,Nidra Thakkar,Jacob Merchant,43,Chikkaballapura Town Police Station
+FIR/2025/MYS/00325,Mysuru,Theft,379 IPC,2025-03-16,Open,Timothy Kanda,Vanya Dua,40,Mysuru Town Police Station
+FIR/2024/BEN/00326,Bengaluru Urban,Other,Others,2024-02-15,Closed,Kashvi Sagar,Tejas Kota,50,Bengaluru Urban Town Police Station
+FIR/2024/MYS/00327,Mysuru,Property damage,425 IPC,2024-02-19,Open,Sanya Wable,Faras Choudhury,43,Mysuru Town Police Station
+FIR/2024/KOD/00328,Kodagu,Cybercrime,66C IT Act,2024-06-04,Closed,Yashasvi Jain,Nitesh Narang,18,Kodagu Town Police Station
+FIR/2024/MYS/00329,Mysuru,Robbery,392 IPC,2024-03-19,Closed,Jackson Jha,Gavin Uppal,29,Mysuru Town Police Station
+FIR/2024/HAV/00330,Haveri,Other,Others,2024-05-05,Under Investigation,Christopher Setty,Yochana Sagar,32,Haveri Town Police Station
+FIR/2024/CHI/00331,Chitradurga,Cybercrime,66C IT Act,2024-11-09,Open,Dalbir Shere,Anthony Randhawa,30,Chitradurga Town Police Station
+FIR/2024/MYS/00332,Mysuru,Assault,351 IPC,2024-06-05,Open,Aarush Kamdar,Chakradev Sampath,26,Mysuru Town Police Station
+FIR/2024/HAV/00333,Haveri,Sexual offences,375 IPC,2024-09-20,Under Investigation,Devansh Bhasin,Urmi Balay,32,Haveri Town Police Station
+FIR/2024/HUB/00334,Hubballi-Dharwad,Property damage,425 IPC,2024-11-05,Open,Nilima Gole,Osha Prasad,34,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00335,Bengaluru Rural,Murder,302 IPC,2024-07-20,Open,Saumya Purohit,Faris Zacharia,45,Bengaluru Rural Town Police Station
+FIR/2025/BEL/00336,Belagavi,Fraud,420 IPC,2025-02-25,Open,Ijaya Dani,Maya Wadhwa,41,Belagavi Town Police Station
+FIR/2024/BEL/00337,Belagavi,Sexual offences,375 IPC,2024-06-15,Open,Udant Aggarwal,Chanchal Sheth,42,Belagavi Town Police Station
+FIR/2024/MYS/00338,Mysuru,Robbery,392 IPC,2024-06-27,Closed,Ladli Karpe,Triveni Pal,48,Mysuru Town Police Station
+FIR/2024/MYS/00339,Mysuru,Fraud,420 IPC,2024-06-10,Under Investigation,Anya Gulati,Azad Saini,40,Mysuru Town Police Station
+FIR/2025/MYS/00340,Mysuru,Fraud,420 IPC,2025-03-03,Open,Wridesh Jhaveri,Harrison Bandi,25,Mysuru Town Police Station
+FIR/2024/MAN/00341,Mangaluru,Assault,351 IPC,2024-03-10,Closed,Chanakya Konda,Neelima Sarna,39,Mangaluru Town Police Station
+FIR/2024/SHI/00342,Shivamogga,Other,Others,2024-06-09,Open,Teerth Bhalla,Yahvi Mann,23,Shivamogga Town Police Station
+FIR/2024/BID/00343,Bidar,Domestic violence,498A IPC,2024-11-15,Under Investigation,Eiravati Nagi,Chasmum Dhar,33,Bidar Town Police Station
+FIR/2024/MYS/00344,Mysuru,Robbery,392 IPC,2024-10-18,Open,Odika Mital,Darsh Gill,34,Mysuru Town Police Station
+FIR/2024/KOD/00345,Kodagu,Drug offences,21 NDPS Act,2024-06-02,Open,Warhi Batta,Lakshmi Vohra,18,Kodagu Town Police Station
+FIR/2024/MYS/00346,Mysuru,Murder,302 IPC,2024-03-03,Open,Omaja Rege,Charita Puri,38,Mysuru Town Police Station
+FIR/2024/BEN/00347,Bengaluru Urban,Assault,351 IPC,2024-11-22,Open,Urvashi Khosla,Charita Dhawan,27,Bengaluru Urban Town Police Station
+FIR/2024/HUB/00348,Hubballi-Dharwad,Other,Others,2024-06-07,Under Investigation,Dalbir Sachar,Krish Rama,18,Hubballi-Dharwad Town Police Station
+FIR/2024/MYS/00349,Mysuru,Assault,351 IPC,2024-07-27,Under Investigation,Aadhya Jani,Farhan Sengupta,46,Mysuru Town Police Station
+FIR/2024/BEL/00350,Belagavi,Domestic violence,498A IPC,2024-08-01,Under Investigation,George Wason,Charan Loyal,45,Belagavi Town Police Station
+FIR/2025/BEN/00351,Bengaluru Urban,Theft,379 IPC,2025-02-03,Open,Balveer Bora,Teerth Srinivas,51,Bengaluru Urban Town Police Station
+FIR/2024/BAL/00352,Ballari,Kidnapping,359 IPC,2024-03-11,Open,Gaurangi Mitter,Siddharth Gupta,30,Ballari Town Police Station
+FIR/2025/HUB/00353,Hubballi-Dharwad,Murder,302 IPC,2025-03-06,Under Investigation,Varenya Kibe,Mekhala Khatri,33,Hubballi-Dharwad Town Police Station
+FIR/2024/HUB/00354,Hubballi-Dharwad,Domestic violence,498A IPC,2024-08-22,Under Investigation,Barkha Rai,Jagrati Morar,29,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00355,Bengaluru Urban,Property damage,425 IPC,2024-03-06,Under Investigation,Jagvi Varghese,Unnati Chaudhari,43,Bengaluru Urban Town Police Station
+FIR/2025/GAD/00356,Gadag,Assault,351 IPC,2025-03-19,Open,Ekaja Jani,Dhriti Sachdev,20,Gadag Town Police Station
+FIR/2025/KOP/00357,Koppal,Cybercrime,66C IT Act,2025-05-07,Under Investigation,Timothy Dhingra,Advika Sahni,48,Koppal Town Police Station
+FIR/2025/MAN/00358,Mangaluru,Cybercrime,66C IT Act,2025-03-09,Open,Michael Hayre,Victor Raghavan,21,Mangaluru Town Police Station
+FIR/2025/BAG/00359,Bagalkot,Murder,302 IPC,2025-03-01,Open,Xalak Nazareth,Vrinda Swaminathan,23,Bagalkot Town Police Station
+FIR/2024/HUB/00360,Hubballi-Dharwad,Cybercrime,66C IT Act,2024-02-04,Open,Om Pandey,Logan Suresh,18,Hubballi-Dharwad Town Police Station
+FIR/2024/MYS/00361,Mysuru,Other,Others,2024-09-21,Under Investigation,Daniel Viswanathan,Falan Bava,30,Mysuru Town Police Station
+FIR/2024/BEN/00362,Bengaluru Urban,Drug offences,21 NDPS Act,2024-01-19,Open,Nitara Devan,Ekansh Dora,37,Bengaluru Urban Town Police Station
+FIR/2024/BEL/00363,Belagavi,Assault,351 IPC,2024-06-29,Under Investigation,Tejas Tiwari,Kashvi Bhasin,22,Belagavi Town Police Station
+FIR/2024/MYS/00364,Mysuru,Murder,302 IPC,2024-10-10,Under Investigation,Vinaya Babu,Nisha Arora,41,Mysuru Town Police Station
+FIR/2024/BEN/00365,Bengaluru Urban,Property damage,425 IPC,2024-01-11,Open,Anvi Wason,Anay Thakkar,42,Bengaluru Urban Town Police Station
+FIR/2025/BEL/00366,Belagavi,Theft,379 IPC,2025-02-28,Open,Praneel Chhabra,Manthan Khosla,24,Belagavi Town Police Station
+FIR/2024/BEN/00367,Bengaluru Urban,Sexual offences,375 IPC,2024-09-30,Open,Zayyan Pandya,Mekhala Brar,24,Bengaluru Urban Town Police Station
+FIR/2024/VIJ/00368,Vijayanagara,Murder,302 IPC,2024-03-05,Open,Nidra Sharaf,Upkaar Mital,34,Vijayanagara Town Police Station
+FIR/2024/HAV/00369,Haveri,Other,Others,2024-03-21,Open,Azad Chander,Ladli Purohit,22,Haveri Town Police Station
+FIR/2024/MYS/00370,Mysuru,Theft,379 IPC,2024-12-04,Open,Daksh Andra,Fitan Tata,19,Mysuru Town Police Station
+FIR/2024/MAN/00371,Mangaluru,Sexual offences,375 IPC,2024-03-25,Open,Garima Chandran,Victor Kakar,37,Mangaluru Town Police Station
+FIR/2024/MAN/00372,Mangaluru,Cybercrime,66C IT Act,2024-11-29,Open,Anika Batra,Avni Bali,41,Mangaluru Town Police Station
+FIR/2025/GAD/00373,Gadag,Kidnapping,359 IPC,2025-03-29,Open,Divya Babu,Maanas Rao,60,Gadag Town Police Station
+FIR/2025/HUB/00374,Hubballi-Dharwad,Drug offences,21 NDPS Act,2025-01-21,Open,Chandani Gaba,Lopa Zachariah,43,Hubballi-Dharwad Town Police Station
+FIR/2024/MYS/00375,Mysuru,Domestic violence,498A IPC,2024-06-14,Under Investigation,Leena Dey,Xiti Pal,38,Mysuru Town Police Station
+FIR/2024/CHI/00376,Chikkamagaluru,Theft,379 IPC,2024-10-14,Open,Guneet Sarkar,Faqid Oak,44,Chikkamagaluru Town Police Station
+FIR/2024/HUB/00377,Hubballi-Dharwad,Robbery,392 IPC,2024-03-18,Open,Eta Balan,Shravya Swaminathan,41,Hubballi-Dharwad Town Police Station
+FIR/2024/MAN/00378,Mangaluru,Murder,302 IPC,2024-10-31,Open,Ishani Prashad,Quincy Rai,41,Mangaluru Town Police Station
+FIR/2024/UDU/00379,Udupi,Kidnapping,359 IPC,2024-10-24,Under Investigation,Chakrika Koshy,Fitan Loyal,18,Udupi Town Police Station
+FIR/2024/MAN/00380,Mangaluru,Drug offences,21 NDPS Act,2024-08-26,Open,Lajita Dube,Edhitha Patel,44,Mangaluru Town Police Station
+FIR/2024/BEN/00381,Bengaluru Rural,Drug offences,21 NDPS Act,2024-04-10,Under Investigation,Gavin Ahluwalia,Sai Parsa,23,Bengaluru Rural Town Police Station
+FIR/2024/BID/00382,Bidar,Sexual offences,375 IPC,2024-10-13,Under Investigation,Harsh Deo,Rachit Sankar,20,Bidar Town Police Station
+FIR/2024/BEL/00383,Belagavi,Sexual offences,375 IPC,2024-10-12,Open,Yauvani Reddy,Atharv Chakraborty,40,Belagavi Town Police Station
+FIR/2025/MAN/00384,Mandya,Fraud,420 IPC,2025-03-05,Open,Girik Nair,Advik Manne,44,Mandya Town Police Station
+FIR/2025/HAS/00385,Hassan,Robbery,392 IPC,2025-03-10,Open,Lipika Chad,Omkaar Rai,44,Hassan Town Police Station
+FIR/2024/KAL/00386,Kalaburagi,Property damage,425 IPC,2024-07-09,Open,Liam Luthra,Amrita Tailor,42,Kalaburagi Town Police Station
+FIR/2024/BAL/00387,Ballari,Murder,302 IPC,2024-12-08,Open,Dev Ganesh,Anya Sama,39,Ballari Town Police Station
+FIR/2024/MYS/00388,Mysuru,Property damage,425 IPC,2024-11-15,Open,Veda Bose,Zayan Koshy,28,Mysuru Town Police Station
+FIR/2024/BID/00389,Bidar,Drug offences,21 NDPS Act,2024-02-23,Open,Rohan Shankar,Krishna Modi,65,Bidar Town Police Station
+FIR/2024/DHA/00390,Dharwad,Drug offences,21 NDPS Act,2024-11-07,Under Investigation,Meghana Natarajan,Forum Sarraf,27,Dharwad Town Police Station
+FIR/2024/YAD/00391,Yadgir,Cybercrime,66C IT Act,2024-11-24,Open,Qushi Deshpande,Ekani Iyer,44,Yadgir Town Police Station
+FIR/2025/UDU/00392,Udupi,Other,Others,2025-02-09,Under Investigation,Dipta Goel,Eiravati Manne,36,Udupi Town Police Station
+FIR/2024/MAN/00393,Mangaluru,Assault,351 IPC,2024-03-04,Under Investigation,Xavier Nanda,Avni Ramaswamy,52,Mangaluru Town Police Station
+FIR/2024/HUB/00394,Hubballi-Dharwad,Assault,351 IPC,2024-02-02,Under Investigation,Ishaan Iyengar,Avi Shenoy,44,Hubballi-Dharwad Town Police Station
+FIR/2024/HUB/00395,Hubballi-Dharwad,Cybercrime,66C IT Act,2024-08-05,Under Investigation,Raksha Manne,Nilima Tata,45,Hubballi-Dharwad Town Police Station
+FIR/2024/CHI/00396,Chitradurga,Domestic violence,498A IPC,2024-12-19,Closed,Chavvi Khurana,Mitesh Sampath,45,Chitradurga Town Police Station
+FIR/2024/KOP/00397,Koppal,Murder,302 IPC,2024-04-05,Open,Ethan Sen,Nandini Warrior,45,Koppal Town Police Station
+FIR/2024/BEL/00398,Belagavi,Domestic violence,498A IPC,2024-01-13,Under Investigation,Balhaar Parsa,Ikbal Kothari,36,Belagavi Town Police Station
+FIR/2024/HUB/00399,Hubballi-Dharwad,Murder,302 IPC,2024-01-29,Under Investigation,Ojas Basu,Garima Sani,18,Hubballi-Dharwad Town Police Station
+FIR/2025/HUB/00400,Hubballi-Dharwad,Murder,302 IPC,2025-03-10,Open,Advaith Chaudhari,Tristan Uppal,32,Hubballi-Dharwad Town Police Station
+FIR/2024/MAN/00401,Mangaluru,Fraud,420 IPC,2024-11-21,Open,Sanaya Prasad,Ubika Tella,51,Mangaluru Town Police Station
+FIR/2024/BAG/00402,Bagalkot,Robbery,392 IPC,2024-08-13,Under Investigation,Hemani Bakshi,Henry Merchant,27,Bagalkot Town Police Station
+FIR/2024/TUM/00403,Tumakuru,Other,Others,2024-07-24,Closed,Frederick D’Alia,Ijaya Muni,40,Tumakuru Town Police Station
+FIR/2024/MAN/00404,Mangaluru,Murder,302 IPC,2024-02-05,Open,Tamanna Jhaveri,Ijaya Soni,23,Mangaluru Town Police Station
+FIR/2025/HUB/00405,Hubballi-Dharwad,Other,Others,2025-02-10,Closed,Raksha Sethi,Ekalinga Mital,24,Hubballi-Dharwad Town Police Station
+FIR/2025/BEL/00406,Belagavi,Property damage,425 IPC,2025-03-11,Open,Ishwar Bajaj,Ikbal Gala,37,Belagavi Town Police Station
+FIR/2024/BEN/00407,Bengaluru Urban,Theft,379 IPC,2024-12-23,Closed,Zaitra Ghosh,Ganga Sandhu,36,Bengaluru Urban Town Police Station
+FIR/2024/MAN/00408,Mangaluru,Kidnapping,359 IPC,2024-02-14,Open,Vincent Ravel,Quincy Sankaran,21,Mangaluru Town Police Station
+FIR/2025/CHI/00409,Chikkamagaluru,Domestic violence,498A IPC,2025-05-12,Open,Ayush Hora,Pushti Ramachandran,18,Chikkamagaluru Town Police Station
+FIR/2025/CHI/00410,Chikkamagaluru,Property damage,425 IPC,2025-05-20,Open,Tanish Jha,Dev Chaudry,28,Chikkamagaluru Town Police Station
+FIR/2024/CHI/00411,Chikkamagaluru,Murder,302 IPC,2024-10-18,Open,Jasmit Nanda,Tanvi Comar,35,Chikkamagaluru Town Police Station
+FIR/2024/BEL/00412,Belagavi,Sexual offences,375 IPC,2024-01-12,Under Investigation,Vrishti Wable,Lipika Ramanathan,39,Belagavi Town Police Station
+FIR/2025/MAN/00413,Mangaluru,Sexual offences,375 IPC,2025-03-14,Open,Ijaya Pandey,Orinder Mishra,22,Mangaluru Town Police Station
+FIR/2024/CHA/00414,Chamarajanagar,Property damage,425 IPC,2024-10-06,Under Investigation,Krish Munshi,William Mody,35,Chamarajanagar Town Police Station
+FIR/2024/SHI/00415,Shivamogga,Theft,379 IPC,2024-12-27,Open,Qadim Prakash,Yasti Rama,25,Shivamogga Town Police Station
+FIR/2024/MYS/00416,Mysuru,Theft,379 IPC,2024-11-10,Open,Lakshit Rajagopal,Quincy Sur,42,Mysuru Town Police Station
+FIR/2024/CHA/00417,Chamarajanagar,Robbery,392 IPC,2024-12-01,Open,Ojas Suri,Logan Grover,35,Chamarajanagar Town Police Station
+FIR/2025/GAD/00418,Gadag,Property damage,425 IPC,2025-05-19,Under Investigation,Shravya Bera,Aditya Sundaram,26,Gadag Town Police Station
+FIR/2025/MAN/00419,Mangaluru,Kidnapping,359 IPC,2025-03-26,Open,Robert Rajagopalan,Nilima Swamy,44,Mangaluru Town Police Station
+FIR/2025/BEN/00420,Bengaluru Urban,Drug offences,21 NDPS Act,2025-03-28,Under Investigation,Sachi Suresh,Fitan Balasubramanian,44,Bengaluru Urban Town Police Station
+FIR/2025/CHA/00421,Chamarajanagar,Domestic violence,498A IPC,2025-05-03,Open,Brinda Bali,Umang Yogi,39,Chamarajanagar Town Police Station
+FIR/2024/SHI/00422,Shivamogga,Drug offences,21 NDPS Act,2024-08-27,Closed,Om Shankar,Yasti Chowdhury,54,Shivamogga Town Police Station
+FIR/2025/DAV/00423,Davangere,Assault,351 IPC,2025-02-15,Open,Amrita Peri,Ridhi Kamdar,18,Davangere Town Police Station
+FIR/2025/BEN/00424,Bengaluru Urban,Murder,302 IPC,2025-05-12,Open,Harsh Kota,Bachittar Sengupta,22,Bengaluru Urban Town Police Station
+FIR/2024/DAV/00425,Davangere,Drug offences,21 NDPS Act,2024-07-03,Under Investigation,Ijaya Chahal,Jacob Khalsa,23,Davangere Town Police Station
+FIR/2024/BID/00426,Bidar,Drug offences,21 NDPS Act,2024-09-25,Open,Indali Sangha,Liam Jhaveri,21,Bidar Town Police Station
+FIR/2025/SHI/00427,Shivamogga,Theft,379 IPC,2025-02-06,Closed,Daniel Panchal,Om Naik,29,Shivamogga Town Police Station
+FIR/2024/HUB/00428,Hubballi-Dharwad,Drug offences,21 NDPS Act,2024-09-18,Open,Bimala Loke,Krishna Sabharwal,33,Hubballi-Dharwad Town Police Station
+FIR/2024/CHI/00429,Chikkamagaluru,Domestic violence,498A IPC,2024-06-10,Under Investigation,Aradhana Date,Zaid Dhingra,31,Chikkamagaluru Town Police Station
+FIR/2025/VIJ/00430,Vijayanagara,Robbery,392 IPC,2025-03-31,Under Investigation,Yug Ramaswamy,Lucky Luthra,41,Vijayanagara Town Police Station
+FIR/2024/MAN/00431,Mangaluru,Kidnapping,359 IPC,2024-03-04,Under Investigation,Keya Seth,Girik Rau,35,Mangaluru Town Police Station
+FIR/2025/BEL/00432,Belagavi,Other,Others,2025-03-31,Open,Jyoti Sha,Falak Agate,49,Belagavi Town Police Station
+FIR/2025/DHA/00433,Dharwad,Theft,379 IPC,2025-04-26,Open,Tara Parmar,Mitali Kamdar,38,Dharwad Town Police Station
+FIR/2025/BEL/00434,Belagavi,Sexual offences,375 IPC,2025-02-26,Open,Siddharth Talwar,Ekantika Mander,34,Belagavi Town Police Station
+FIR/2025/DHA/00435,Dharwad,Other,Others,2025-05-24,Closed,Kalpit Sundaram,Chanakya Batra,19,Dharwad Town Police Station
+FIR/2025/HUB/00436,Hubballi-Dharwad,Fraud,420 IPC,2025-03-03,Open,Tripti Babu,Nakul Sastry,47,Hubballi-Dharwad Town Police Station
+FIR/2024/MYS/00437,Mysuru,Murder,302 IPC,2024-02-28,Open,Aadi Sangha,Kevin Mittal,27,Mysuru Town Police Station
+FIR/2024/BAG/00438,Bagalkot,Robbery,392 IPC,2024-08-20,Under Investigation,Anusha Chander,Zashil Butala,54,Bagalkot Town Police Station
+FIR/2025/BID/00439,Bidar,Fraud,420 IPC,2025-01-15,Under Investigation,Noah Ben,Dalaja Kaur,29,Bidar Town Police Station
+FIR/2025/BEN/00440,Bengaluru Urban,Theft,379 IPC,2025-01-29,Open,Gavin Chandran,Tanay Sood,29,Bengaluru Urban Town Police Station
+FIR/2024/MYS/00441,Mysuru,Sexual offences,375 IPC,2024-12-04,Closed,Kevin Kara,Aditya Anand,37,Mysuru Town Police Station
+FIR/2024/BEN/00442,Bengaluru Urban,Robbery,392 IPC,2024-12-24,Open,Jai Sami,Vanya Bobal,22,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00443,Bengaluru Urban,Murder,302 IPC,2024-07-29,Under Investigation,Leela Chakraborty,Harshil Munshi,26,Bengaluru Urban Town Police Station
+FIR/2025/BAG/00444,Bagalkot,Cybercrime,66C IT Act,2025-01-30,Under Investigation,Chandani Devan,Kiaan Dhar,20,Bagalkot Town Police Station
+FIR/2024/BAG/00445,Bagalkot,Domestic violence,498A IPC,2024-01-01,Open,Abhiram Gala,Indali Kala,45,Bagalkot Town Police Station
+FIR/2024/BEL/00446,Belagavi,Fraud,420 IPC,2024-04-26,Open,Nisha Savant,Gabriel Chaudhry,32,Belagavi Town Police Station
+FIR/2024/GAD/00447,Gadag,Domestic violence,498A IPC,2024-08-06,Open,Jatin Rajagopalan,Pushti Murty,22,Gadag Town Police Station
+FIR/2025/CHI/00448,Chikkamagaluru,Property damage,425 IPC,2025-05-13,Open,Yug Malhotra,Yuvraj Mane,41,Chikkamagaluru Town Police Station
+FIR/2024/YAD/00449,Yadgir,Kidnapping,359 IPC,2024-11-16,Open,Charvi Jha,Manya Merchant,45,Yadgir Town Police Station
+FIR/2024/RAI/00450,Raichur,Sexual offences,375 IPC,2024-05-25,Under Investigation,Wriddhish Talwar,Isaiah Khosla,39,Raichur Town Police Station
+FIR/2024/SHI/00451,Shivamogga,Drug offences,21 NDPS Act,2024-05-15,Open,Ekavir Wable,Jalsa Nadig,27,Shivamogga Town Police Station
+FIR/2024/VIJ/00452,Vijayapura,Assault,351 IPC,2024-06-04,Open,Lila Salvi,Orinder Sinha,22,Vijayapura Town Police Station
+FIR/2024/KOD/00453,Kodagu,Assault,351 IPC,2024-02-03,Under Investigation,Anay Bir,Adweta Kale,22,Kodagu Town Police Station
+FIR/2025/CHA/00454,Chamarajanagar,Fraud,420 IPC,2025-04-05,Open,Darpan Rao,Yachana Sagar,33,Chamarajanagar Town Police Station
+FIR/2024/CHI/00455,Chitradurga,Other,Others,2024-10-27,Closed,Neelima Butala,Arunima Chacko,32,Chitradurga Town Police Station
+FIR/2024/RAM/00456,Ramanagara,Murder,302 IPC,2024-02-02,Under Investigation,Farhan Vaidya,Nachiket Yadav,23,Ramanagara Town Police Station
+FIR/2024/BEN/00457,Bengaluru Urban,Sexual offences,375 IPC,2024-12-11,Under Investigation,Mahika Bhatti,Rajeshri Khare,37,Bengaluru Urban Town Police Station
+FIR/2024/CHA/00458,Chamarajanagar,Cybercrime,66C IT Act,2024-01-13,Under Investigation,Yash Chadha,Jack Setty,21,Chamarajanagar Town Police Station
+FIR/2024/BEL/00459,Belagavi,Assault,351 IPC,2024-08-16,Under Investigation,Dayamai Gill,Advik Devan,33,Belagavi Town Police Station
+FIR/2025/RAI/00460,Raichur,Assault,351 IPC,2025-02-11,Under Investigation,Nihal Taneja,Zansi Lad,25,Raichur Town Police Station
+FIR/2024/HUB/00461,Hubballi-Dharwad,Other,Others,2024-09-08,Under Investigation,Kamya Date,Jacob Balan,39,Hubballi-Dharwad Town Police Station
+FIR/2025/KOP/00462,Koppal,Theft,379 IPC,2025-01-15,Open,Pushti Magar,Adya Bose,34,Koppal Town Police Station
+FIR/2024/MAN/00463,Mangaluru,Fraud,420 IPC,2024-05-11,Open,Tamanna Vaidya,Christopher Tata,27,Mangaluru Town Police Station
+FIR/2024/MYS/00464,Mysuru,Other,Others,2024-08-30,Open,Jhalak Dugar,Harshil D’Alia,34,Mysuru Town Police Station
+FIR/2024/MAN/00465,Mangaluru,Robbery,392 IPC,2024-04-11,Under Investigation,Yashodhara Agate,Advik Konda,24,Mangaluru Town Police Station
+FIR/2025/KAL/00466,Kalaburagi,Fraud,420 IPC,2025-03-16,Open,Urmi Patla,Mason Gola,26,Kalaburagi Town Police Station
+FIR/2024/YAD/00467,Yadgir,Assault,351 IPC,2024-02-25,Open,Oni Kapur,Yuvraj Saha,38,Yadgir Town Police Station
+FIR/2024/KAL/00468,Kalaburagi,Domestic violence,498A IPC,2024-01-23,Open,Anika Brahmbhatt,Jagdish Thakkar,51,Kalaburagi Town Police Station
+FIR/2024/GAD/00469,Gadag,Cybercrime,66C IT Act,2024-11-14,Open,Praneel Kapoor,Nandini Biswas,36,Gadag Town Police Station
+FIR/2024/CHA/00470,Chamarajanagar,Domestic violence,498A IPC,2024-01-24,Open,Barkha Mukhopadhyay,Gabriel Shan,18,Chamarajanagar Town Police Station
+FIR/2024/HAV/00471,Haveri,Cybercrime,66C IT Act,2024-07-20,Under Investigation,Jyoti Iyer,Daksha Kibe,39,Haveri Town Police Station
+FIR/2025/HUB/00472,Hubballi-Dharwad,Cybercrime,66C IT Act,2025-03-01,Closed,Jyoti Tak,Yatan Dora,44,Hubballi-Dharwad Town Police Station
+FIR/2025/YAD/00473,Yadgir,Drug offences,21 NDPS Act,2025-03-21,Open,Nimrat Bajwa,Hiral Andra,44,Yadgir Town Police Station
+FIR/2024/BEN/00474,Bengaluru Urban,Assault,351 IPC,2024-12-20,Open,Aarav Puri,Hemang Jha,41,Bengaluru Urban Town Police Station
+FIR/2024/BEL/00475,Belagavi,Assault,351 IPC,2024-07-09,Open,Oni Swamy,Lucky Mammen,53,Belagavi Town Police Station
+FIR/2024/BEN/00476,Bengaluru Urban,Property damage,425 IPC,2024-06-14,Under Investigation,Caleb Kata,Kashish Shanker,29,Bengaluru Urban Town Police Station
+FIR/2024/MAN/00477,Mangaluru,Sexual offences,375 IPC,2024-11-29,Under Investigation,Girish Tiwari,Meera Borde,35,Mangaluru Town Police Station
+FIR/2024/MYS/00478,Mysuru,Sexual offences,375 IPC,2024-11-12,Under Investigation,Radhika De,Bishakha Lal,65,Mysuru Town Police Station
+FIR/2025/CHI/00479,Chikkamagaluru,Domestic violence,498A IPC,2025-01-17,Open,Maya Narain,Sneha Magar,41,Chikkamagaluru Town Police Station
+FIR/2024/DAV/00480,Davangere,Domestic violence,498A IPC,2024-09-07,Open,Falan Jain,Ikbal Dugal,46,Davangere Town Police Station
+FIR/2025/BEN/00481,Bengaluru Urban,Murder,302 IPC,2025-02-20,Open,Nitesh Sengupta,Dipta Ray,51,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00482,Bengaluru Urban,Murder,302 IPC,2024-12-23,Open,Ishita Johal,Darika Sheth,33,Bengaluru Urban Town Police Station
+FIR/2024/HAS/00483,Hassan,Kidnapping,359 IPC,2024-10-06,Under Investigation,Jagdish Chana,Daksha Baria,18,Hassan Town Police Station
+FIR/2025/BEL/00484,Belagavi,Robbery,392 IPC,2025-03-18,Closed,Falak Divan,Yuvraj Parekh,40,Belagavi Town Police Station
+FIR/2025/MAN/00485,Mangaluru,Drug offences,21 NDPS Act,2025-04-04,Open,Yochana Bawa,Abha Ghosh,31,Mangaluru Town Police Station
+FIR/2024/BEL/00486,Belagavi,Drug offences,21 NDPS Act,2024-07-12,Open,Nidhi Sethi,Girindra Shere,34,Belagavi Town Police Station
+FIR/2024/MAN/00487,Mangaluru,Assault,351 IPC,2024-01-24,Under Investigation,Logan Dara,David Kapadia,33,Mangaluru Town Police Station
+FIR/2025/KAL/00488,Kalaburagi,Theft,379 IPC,2025-01-19,Under Investigation,Rudra Rattan,Frado Lad,28,Kalaburagi Town Police Station
+FIR/2024/MAN/00489,Mangaluru,Cybercrime,66C IT Act,2024-02-22,Under Investigation,Anthony Bhattacharyya,Sachi Dave,32,Mangaluru Town Police Station
+FIR/2024/DAV/00490,Davangere,Assault,351 IPC,2024-10-26,Open,Garima Das,Triya Bedi,35,Davangere Town Police Station
+FIR/2024/MYS/00491,Mysuru,Property damage,425 IPC,2024-01-21,Open,Rachita Rana,Ayushman Raja,40,Mysuru Town Police Station
+FIR/2024/BEL/00492,Belagavi,Property damage,425 IPC,2024-07-23,Open,Orinder Pandya,Rachit Maharaj,34,Belagavi Town Police Station
+FIR/2024/MYS/00493,Mysuru,Property damage,425 IPC,2024-02-29,Closed,Sanaya Dixit,Yatan Merchant,20,Mysuru Town Police Station
+FIR/2024/BEL/00494,Belagavi,Kidnapping,359 IPC,2024-08-17,Closed,Nisha Srinivas,Gagan Mammen,24,Belagavi Town Police Station
+FIR/2024/TUM/00495,Tumakuru,Assault,351 IPC,2024-01-16,Closed,Laksh Saini,Zaid Bahl,36,Tumakuru Town Police Station
+FIR/2024/MAN/00496,Mandya,Murder,302 IPC,2024-03-20,Open,Jagrati Srinivasan,Hemangini Thakkar,53,Mandya Town Police Station
+FIR/2024/YAD/00497,Yadgir,Robbery,392 IPC,2024-07-02,Under Investigation,Lipika Madan,Atharv Nagar,38,Yadgir Town Police Station
+FIR/2024/DHA/00498,Dharwad,Property damage,425 IPC,2024-01-30,Open,Ayushman Mand,Urmi Wagle,18,Dharwad Town Police Station
+FIR/2025/BAL/00499,Ballari,Drug offences,21 NDPS Act,2025-05-30,Open,Viraj Dutta,Yug Khosla,43,Ballari Town Police Station
+FIR/2024/GAD/00500,Gadag,Assault,351 IPC,2024-07-26,Closed,Daksh Kanda,Isha Ghose,38,Gadag Town Police Station
+FIR/2024/VIJ/00501,Vijayapura,Property damage,425 IPC,2024-08-26,Under Investigation,Warjas Nadkarni,Ayaan Pandey,45,Vijayapura Town Police Station
+FIR/2024/MYS/00502,Mysuru,Murder,302 IPC,2024-09-02,Open,Raghav Tailor,Parth Swaminathan,38,Mysuru Town Police Station
+FIR/2024/DAV/00503,Davangere,Other,Others,2024-01-20,Under Investigation,Gautam Bhalla,Theodore Bahri,40,Davangere Town Police Station
+FIR/2025/SHI/00504,Shivamogga,Murder,302 IPC,2025-02-13,Open,Aadi Narula,Kalpit Oak,33,Shivamogga Town Police Station
+FIR/2025/BEN/00505,Bengaluru Rural,Other,Others,2025-01-24,Open,Ekiya Bhargava,Manbir Dhar,20,Bengaluru Rural Town Police Station
+FIR/2024/BEL/00506,Belagavi,Assault,351 IPC,2024-05-27,Open,Janya Bora,Meghana Chaudhuri,27,Belagavi Town Police Station
+FIR/2024/KAL/00507,Kalaburagi,Sexual offences,375 IPC,2024-07-05,Under Investigation,Chasmum Naidu,Nakul Sarkar,51,Kalaburagi Town Police Station
+FIR/2024/CHI/00508,Chikkaballapura,Domestic violence,498A IPC,2024-07-29,Under Investigation,Edhitha Ghosh,Udant Gill,39,Chikkaballapura Town Police Station
+FIR/2024/KOP/00509,Koppal,Sexual offences,375 IPC,2024-01-31,Open,Damyanti Menon,Peter Agarwal,52,Koppal Town Police Station
+FIR/2025/BID/00510,Bidar,Cybercrime,66C IT Act,2025-04-05,Open,Bachittar Gopal,Timothy Chawla,33,Bidar Town Police Station
+FIR/2024/KAL/00511,Kalaburagi,Kidnapping,359 IPC,2024-01-10,Open,Lohit Narula,Wazir Palan,47,Kalaburagi Town Police Station
+FIR/2025/UDU/00512,Udupi,Domestic violence,498A IPC,2025-03-25,Open,Oliver Chakrabarti,Sanya Apte,52,Udupi Town Police Station
+FIR/2024/GAD/00513,Gadag,Sexual offences,375 IPC,2024-05-23,Open,Shaurya Krish,Inaya Kunda,50,Gadag Town Police Station
+FIR/2025/KOP/00514,Koppal,Robbery,392 IPC,2025-05-29,Under Investigation,Aarav Bava,Raksha Saini,28,Koppal Town Police Station
+FIR/2024/BEN/00515,Bengaluru Urban,Cybercrime,66C IT Act,2024-06-25,Under Investigation,Odika Tailor,Indali Prashad,45,Bengaluru Urban Town Police Station
+FIR/2025/BEN/00516,Bengaluru Urban,Drug offences,21 NDPS Act,2025-04-28,Under Investigation,Varenya Kar,Siya Borah,37,Bengaluru Urban Town Police Station
+FIR/2024/DHA/00517,Dharwad,Drug offences,21 NDPS Act,2024-07-24,Under Investigation,Chaitaly Bahri,Advika Cheema,36,Dharwad Town Police Station
+FIR/2024/HUB/00518,Hubballi-Dharwad,Assault,351 IPC,2024-07-29,Open,Hema Garde,Naveen Borde,25,Hubballi-Dharwad Town Police Station
+FIR/2024/GAD/00519,Gadag,Theft,379 IPC,2024-12-17,Open,Hamsini Subramanian,Raagini Gala,26,Gadag Town Police Station
+FIR/2024/RAM/00520,Ramanagara,Other,Others,2024-12-30,Open,Naksh Bera,Garima Jha,39,Ramanagara Town Police Station
+FIR/2024/BEN/00521,Bengaluru Urban,Drug offences,21 NDPS Act,2024-06-01,Open,Nimrat Zachariah,Baghyawati Mishra,45,Bengaluru Urban Town Police Station
+FIR/2025/HAV/00522,Haveri,Kidnapping,359 IPC,2025-04-12,Open,Gopal Bawa,Vritti Dube,27,Haveri Town Police Station
+FIR/2024/MAN/00523,Mangaluru,Cybercrime,66C IT Act,2024-10-10,Open,Jalsa Aggarwal,Gagan Menon,52,Mangaluru Town Police Station
+FIR/2024/MYS/00524,Mysuru,Kidnapping,359 IPC,2024-09-16,Open,Ryan Chatterjee,Samuel Garde,29,Mysuru Town Police Station
+FIR/2024/BAL/00525,Ballari,Drug offences,21 NDPS Act,2024-10-13,Under Investigation,Finn Solanki,Darika Rao,18,Ballari Town Police Station
+FIR/2025/HUB/00526,Hubballi-Dharwad,Murder,302 IPC,2025-02-18,Open,Vrinda Lanka,Lila Goyal,56,Hubballi-Dharwad Town Police Station
+FIR/2025/DAV/00527,Davangere,Domestic violence,498A IPC,2025-02-04,Open,Lakshmi Pingle,Sanaya Basu,18,Davangere Town Police Station
+FIR/2024/MYS/00528,Mysuru,Theft,379 IPC,2024-12-29,Under Investigation,Ria Shroff,Upkaar Luthra,27,Mysuru Town Police Station
+FIR/2024/MYS/00529,Mysuru,Cybercrime,66C IT Act,2024-09-20,Open,Matthew Chatterjee,Hemangini Sachdev,18,Mysuru Town Police Station
+FIR/2025/HUB/00530,Hubballi-Dharwad,Fraud,420 IPC,2025-04-07,Open,Darsh Ram,Vaishnavi Keer,18,Hubballi-Dharwad Town Police Station
+FIR/2024/KOP/00531,Koppal,Other,Others,2024-02-22,Open,Chandani Brar,Bakhshi Thakkar,29,Koppal Town Police Station
+FIR/2025/HUB/00532,Hubballi-Dharwad,Domestic violence,498A IPC,2025-03-23,Open,Jai Sen,Oliver Kakar,18,Hubballi-Dharwad Town Police Station
+FIR/2024/HAV/00533,Haveri,Robbery,392 IPC,2024-02-16,Under Investigation,Jonathan Basak,Farhan Saran,20,Haveri Town Police Station
+FIR/2025/MAN/00534,Mangaluru,Cybercrime,66C IT Act,2025-04-24,Under Investigation,Manbir Kuruvilla,Ekalinga Chahal,24,Mangaluru Town Police Station
+FIR/2024/HUB/00535,Hubballi-Dharwad,Domestic violence,498A IPC,2024-12-09,Closed,Mekhala Nanda,Zinal Shanker,39,Hubballi-Dharwad Town Police Station
+FIR/2024/MAN/00536,Mandya,Cybercrime,66C IT Act,2024-12-14,Closed,Oni Chowdhury,Mason Divan,32,Mandya Town Police Station
+FIR/2024/RAI/00537,Raichur,Murder,302 IPC,2024-01-25,Open,Hitesh Chaudhuri,Hemangini Roy,18,Raichur Town Police Station
+FIR/2025/KOP/00538,Koppal,Other,Others,2025-03-22,Open,Leela Sunder,Baljiwan Gera,38,Koppal Town Police Station
+FIR/2024/MAN/00539,Mandya,Sexual offences,375 IPC,2024-01-28,Under Investigation,Neha Dhawan,Balvan Randhawa,24,Mandya Town Police Station
+FIR/2025/MAN/00540,Mangaluru,Assault,351 IPC,2025-03-14,Open,Wazir Bawa,Amruta Pradhan,30,Mangaluru Town Police Station
+FIR/2025/CHI/00541,Chikkaballapura,Cybercrime,66C IT Act,2025-02-14,Under Investigation,Geetika Mitter,Avni Swamy,60,Chikkaballapura Town Police Station
+FIR/2024/BEN/00542,Bengaluru Urban,Sexual offences,375 IPC,2024-03-11,Under Investigation,Vedant Desai,Saanvi Nagi,24,Bengaluru Urban Town Police Station
+FIR/2024/BID/00543,Bidar,Murder,302 IPC,2024-12-18,Open,Omaja Chakraborty,Riya Kakar,48,Bidar Town Police Station
+FIR/2024/VIJ/00544,Vijayapura,Murder,302 IPC,2024-05-28,Open,Vedhika Varty,Daksh Varma,18,Vijayapura Town Police Station
+FIR/2025/YAD/00545,Yadgir,Murder,302 IPC,2025-04-15,Under Investigation,Dominic Mukhopadhyay,Krishna Viswanathan,36,Yadgir Town Police Station
+FIR/2024/DHA/00546,Dharwad,Property damage,425 IPC,2024-01-17,Under Investigation,Oscar Hans,Dalbir Krish,42,Dharwad Town Police Station
+FIR/2025/HUB/00547,Hubballi-Dharwad,Domestic violence,498A IPC,2025-03-28,Open,Tanmayi Bedi,Rushil Mahal,31,Hubballi-Dharwad Town Police Station
+FIR/2024/BEL/00548,Belagavi,Cybercrime,66C IT Act,2024-06-09,Under Investigation,Ucchal Tiwari,Jatin Balasubramanian,36,Belagavi Town Police Station
+FIR/2024/VIJ/00549,Vijayanagara,Domestic violence,498A IPC,2024-10-23,Open,Kashish Suresh,Peter Som,53,Vijayanagara Town Police Station
+FIR/2024/BEL/00550,Belagavi,Sexual offences,375 IPC,2024-03-03,Open,Hemangini Gade,Gautam Mane,36,Belagavi Town Police Station
+FIR/2024/BEL/00551,Belagavi,Other,Others,2024-01-01,Open,Libni Bawa,Tanish Kant,53,Belagavi Town Police Station
+FIR/2025/BID/00552,Bidar,Kidnapping,359 IPC,2025-03-29,Under Investigation,Samuel Luthra,Yochana Bahri,50,Bidar Town Police Station
+FIR/2024/TUM/00553,Tumakuru,Drug offences,21 NDPS Act,2024-08-24,Open,Urvi Deo,Abhiram Kapur,37,Tumakuru Town Police Station
+FIR/2025/BEL/00554,Belagavi,Robbery,392 IPC,2025-01-01,Closed,Dalaja Maharaj,Krisha Palla,27,Belagavi Town Police Station
+FIR/2024/BEN/00555,Bengaluru Urban,Other,Others,2024-01-30,Closed,Zayyan Kamdar,Chasmum Verma,63,Bengaluru Urban Town Police Station
+FIR/2024/KOP/00556,Koppal,Murder,302 IPC,2024-09-30,Under Investigation,Harsh Amble,Barkha Misra,45,Koppal Town Police Station
+FIR/2024/MAN/00557,Mandya,Cybercrime,66C IT Act,2024-04-26,Open,Vasatika Bhatt,Aradhana Nair,58,Mandya Town Police Station
+FIR/2025/MYS/00558,Mysuru,Property damage,425 IPC,2025-03-13,Open,Advika Misra,Mason Varughese,45,Mysuru Town Police Station
+FIR/2024/MYS/00559,Mysuru,Domestic violence,498A IPC,2024-05-14,Open,Dakshesh Raval,Logan Bal,35,Mysuru Town Police Station
+FIR/2025/BAG/00560,Bagalkot,Drug offences,21 NDPS Act,2025-01-09,Open,Chakrika Lad,Nidhi Rama,36,Bagalkot Town Police Station
+FIR/2024/UDU/00561,Udupi,Theft,379 IPC,2024-12-13,Open,Ranveer Oza,Vamakshi Parmer,24,Udupi Town Police Station
+FIR/2025/MYS/00562,Mysuru,Theft,379 IPC,2025-04-04,Open,Onkar Golla,Gunbir Sinha,26,Mysuru Town Police Station
+FIR/2024/KOP/00563,Koppal,Murder,302 IPC,2024-11-16,Closed,Aarna Goswami,Gaurav Kapadia,50,Koppal Town Police Station
+FIR/2024/MAN/00564,Mandya,Property damage,425 IPC,2024-04-03,Open,Udant Mohanty,Garima Prabhu,48,Mandya Town Police Station
+FIR/2024/MAN/00565,Mangaluru,Domestic violence,498A IPC,2024-12-13,Open,Chaitaly Sheth,Upma Bera,37,Mangaluru Town Police Station
+FIR/2024/BEN/00566,Bengaluru Rural,Theft,379 IPC,2024-12-11,Closed,Urmi Hayer,Lakshmi Wagle,42,Bengaluru Rural Town Police Station
+FIR/2024/MYS/00567,Mysuru,Robbery,392 IPC,2024-09-14,Open,Odika Bhagat,Laksh Iyer,35,Mysuru Town Police Station
+FIR/2024/HUB/00568,Hubballi-Dharwad,Murder,302 IPC,2024-08-13,Open,Nimrat Shankar,Diya Gole,42,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00569,Bengaluru Urban,Fraud,420 IPC,2024-01-07,Open,Vinaya Natarajan,Dhriti Bhardwaj,41,Bengaluru Urban Town Police Station
+FIR/2025/BEL/00570,Belagavi,Cybercrime,66C IT Act,2025-05-10,Open,Siya Mahal,Om Dutt,44,Belagavi Town Police Station
+FIR/2024/VIJ/00571,Vijayanagara,Kidnapping,359 IPC,2024-07-21,Under Investigation,Gaurang Dayal,Pushti Raval,26,Vijayanagara Town Police Station
+FIR/2024/HUB/00572,Hubballi-Dharwad,Domestic violence,498A IPC,2024-12-09,Open,Vansha Rajagopal,Baljiwan Walla,47,Hubballi-Dharwad Town Police Station
+FIR/2025/VIJ/00573,Vijayapura,Fraud,420 IPC,2025-03-17,Under Investigation,Kashvi Atwal,Rayaan Badami,40,Vijayapura Town Police Station
+FIR/2024/BEL/00574,Belagavi,Other,Others,2024-04-27,Under Investigation,Yuvraj Kara,Devika Dayal,41,Belagavi Town Police Station
+FIR/2024/HUB/00575,Hubballi-Dharwad,Other,Others,2024-04-01,Open,Leela Thakur,Oliver Bhattacharyya,27,Hubballi-Dharwad Town Police Station
+FIR/2025/HUB/00576,Hubballi-Dharwad,Robbery,392 IPC,2025-04-06,Open,Chanchal Mannan,Zinal Viswanathan,44,Hubballi-Dharwad Town Police Station
+FIR/2024/BAG/00577,Bagalkot,Fraud,420 IPC,2024-07-24,Closed,Radha Desai,Vrishti Parmer,27,Bagalkot Town Police Station
+FIR/2024/BEL/00578,Belagavi,Murder,302 IPC,2024-01-17,Open,Nitesh Raval,Vedant Kapur,50,Belagavi Town Police Station
+FIR/2024/MAN/00579,Mangaluru,Property damage,425 IPC,2024-07-03,Under Investigation,Siddharth Bains,Jatin Peri,39,Mangaluru Town Police Station
+FIR/2025/BEL/00580,Belagavi,Assault,351 IPC,2025-03-13,Closed,Keya Kumer,Chanakya Chokshi,18,Belagavi Town Police Station
+FIR/2024/CHA/00581,Chamarajanagar,Assault,351 IPC,2024-02-22,Open,Chanakya D’Alia,Sachi Rai,30,Chamarajanagar Town Police Station
+FIR/2025/KOP/00582,Koppal,Murder,302 IPC,2025-01-06,Open,Zayyan Som,Samesh Andra,43,Koppal Town Police Station
+FIR/2025/MAN/00583,Mangaluru,Other,Others,2025-01-26,Open,Osha Chaudhuri,Laksh Sahota,44,Mangaluru Town Police Station
+FIR/2024/KOP/00584,Koppal,Drug offences,21 NDPS Act,2024-07-25,Under Investigation,Yasti Dalal,Ishaan Cherian,31,Koppal Town Police Station
+FIR/2024/YAD/00585,Yadgir,Assault,351 IPC,2024-09-13,Open,Rushil Iyengar,Saksham Parmar,19,Yadgir Town Police Station
+FIR/2024/BEL/00586,Belagavi,Kidnapping,359 IPC,2024-01-17,Under Investigation,Chakrika Dyal,Watika Johal,39,Belagavi Town Police Station
+FIR/2025/BEL/00587,Belagavi,Property damage,425 IPC,2025-04-30,Open,Ganga Keer,Agastya Chakraborty,50,Belagavi Town Police Station
+FIR/2024/YAD/00588,Yadgir,Assault,351 IPC,2024-12-23,Under Investigation,Wakeeta Dixit,Yasti Borde,30,Yadgir Town Police Station
+FIR/2024/BID/00589,Bidar,Robbery,392 IPC,2024-09-23,Open,Aahana Kashyap,Chaman Lalla,32,Bidar Town Police Station
+FIR/2024/SHI/00590,Shivamogga,Sexual offences,375 IPC,2024-01-01,Open,Chandresh Chaudhry,Balveer Mannan,42,Shivamogga Town Police Station
+FIR/2025/DAV/00591,Davangere,Murder,302 IPC,2025-01-08,Open,Dhriti Sandhu,Girish Bath,46,Davangere Town Police Station
+FIR/2025/BEN/00592,Bengaluru Urban,Assault,351 IPC,2025-05-13,Open,Lakshit Garde,Ishita Sarma,33,Bengaluru Urban Town Police Station
+FIR/2025/HAS/00593,Hassan,Sexual offences,375 IPC,2025-03-13,Open,Girik Pradhan,Qadim Comar,22,Hassan Town Police Station
+FIR/2024/DHA/00594,Dharwad,Domestic violence,498A IPC,2024-05-20,Open,Mugdha Shan,Lekha Sridhar,20,Dharwad Town Police Station
+FIR/2024/BEL/00595,Belagavi,Fraud,420 IPC,2024-07-28,Open,Ojas Chowdhury,Daniel Dutta,38,Belagavi Town Police Station
+FIR/2024/MYS/00596,Mysuru,Domestic violence,498A IPC,2024-08-01,Under Investigation,Omaja Subramanian,Pratyush Raghavan,53,Mysuru Town Police Station
+FIR/2025/BEN/00597,Bengaluru Urban,Theft,379 IPC,2025-01-18,Closed,Ayush De,Vinaya Chowdhury,51,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00598,Bengaluru Urban,Sexual offences,375 IPC,2024-07-05,Closed,Ridhi Batra,Advika Murthy,23,Bengaluru Urban Town Police Station
+FIR/2024/VIJ/00599,Vijayapura,Cybercrime,66C IT Act,2024-09-22,Open,Udarsh Nigam,Rachita Kothari,38,Vijayapura Town Police Station
+FIR/2024/BEL/00600,Belagavi,Sexual offences,375 IPC,2024-08-19,Open,Hiral Rajan,Chatura Apte,31,Belagavi Town Police Station
+FIR/2024/MYS/00601,Mysuru,Sexual offences,375 IPC,2024-05-21,Under Investigation,Yashasvi Singh,Noah Borde,37,Mysuru Town Police Station
+FIR/2024/MYS/00602,Mysuru,Fraud,420 IPC,2024-06-22,Closed,Ekani Khosla,Arunima Bedi,40,Mysuru Town Police Station
+FIR/2024/CHI/00603,Chikkamagaluru,Kidnapping,359 IPC,2024-10-10,Open,Kritika Rau,Farhan Sharaf,44,Chikkamagaluru Town Police Station
+FIR/2025/MAN/00604,Mangaluru,Assault,351 IPC,2025-02-09,Under Investigation,Sara Chakrabarti,Sanya Mutti,31,Mangaluru Town Police Station
+FIR/2025/YAD/00605,Yadgir,Drug offences,21 NDPS Act,2025-02-15,Under Investigation,Widisha Badami,Netra Sachar,34,Yadgir Town Police Station
+FIR/2024/RAM/00606,Ramanagara,Kidnapping,359 IPC,2024-05-01,Under Investigation,Aadi Chand,Yashoda Jhaveri,37,Ramanagara Town Police Station
+FIR/2024/VIJ/00607,Vijayanagara,Robbery,392 IPC,2024-08-09,Open,Harita Patla,Udant Sha,50,Vijayanagara Town Police Station
+FIR/2024/MAN/00608,Mangaluru,Drug offences,21 NDPS Act,2024-04-02,Under Investigation,Urvashi Patla,Ishaan Chatterjee,18,Mangaluru Town Police Station
+FIR/2025/MYS/00609,Mysuru,Property damage,425 IPC,2025-02-21,Under Investigation,Aarnav Om,Bishakha Vig,48,Mysuru Town Police Station
+FIR/2025/RAI/00610,Raichur,Theft,379 IPC,2025-01-16,Under Investigation,Hitesh Bath,Waida Dey,44,Raichur Town Police Station
+FIR/2025/HUB/00611,Hubballi-Dharwad,Drug offences,21 NDPS Act,2025-04-27,Under Investigation,Hredhaan Kumar,Raghav Dara,35,Hubballi-Dharwad Town Police Station
+FIR/2024/HUB/00612,Hubballi-Dharwad,Drug offences,21 NDPS Act,2024-01-27,Open,Tanveer Shankar,Hamsini Chokshi,36,Hubballi-Dharwad Town Police Station
+FIR/2024/HUB/00613,Hubballi-Dharwad,Domestic violence,498A IPC,2024-04-08,Open,Chakradhar Dasgupta,Tanvi Thaman,33,Hubballi-Dharwad Town Police Station
+FIR/2024/CHA/00614,Chamarajanagar,Murder,302 IPC,2024-02-05,Under Investigation,Wishi Agrawal,Rachita Subramanian,43,Chamarajanagar Town Police Station
+FIR/2024/HUB/00615,Hubballi-Dharwad,Sexual offences,375 IPC,2024-12-19,Open,Oscar Dave,Lila Nagy,33,Hubballi-Dharwad Town Police Station
+FIR/2024/KOP/00616,Koppal,Assault,351 IPC,2024-12-12,Under Investigation,Omya Kothari,Mitali Oza,28,Koppal Town Police Station
+FIR/2025/MYS/00617,Mysuru,Robbery,392 IPC,2025-02-09,Under Investigation,Sneha Deol,Nitara Vala,34,Mysuru Town Police Station
+FIR/2024/VIJ/00618,Vijayanagara,Theft,379 IPC,2024-12-18,Closed,Dipta Kalla,Shaurya Mannan,32,Vijayanagara Town Police Station
+FIR/2024/CHI/00619,Chikkamagaluru,Property damage,425 IPC,2024-10-27,Open,Kevin Gokhale,Jack Pandey,23,Chikkamagaluru Town Police Station
+FIR/2024/KAL/00620,Kalaburagi,Kidnapping,359 IPC,2024-05-16,Open,Omisha Walla,Pahal Arya,18,Kalaburagi Town Police Station
+FIR/2024/HUB/00621,Hubballi-Dharwad,Property damage,425 IPC,2024-12-21,Open,Aryan Raj,Chatresh Bhalla,33,Hubballi-Dharwad Town Police Station
+FIR/2024/BAL/00622,Ballari,Domestic violence,498A IPC,2024-02-09,Closed,Amara Dyal,Zashil Dhingra,28,Ballari Town Police Station
+FIR/2024/BAL/00623,Ballari,Assault,351 IPC,2024-02-17,Open,Chakrika Jani,Jagrati Sethi,31,Ballari Town Police Station
+FIR/2025/BID/00624,Bidar,Fraud,420 IPC,2025-05-12,Open,Udarsh Ramachandran,Yasti Mani,49,Bidar Town Police Station
+FIR/2024/TUM/00625,Tumakuru,Sexual offences,375 IPC,2024-09-28,Open,Lakshmi Ram,Dhriti Bhagat,47,Tumakuru Town Police Station
+FIR/2025/BEN/00626,Bengaluru Urban,Assault,351 IPC,2025-05-03,Open,Zayan Jain,Umang Pillai,41,Bengaluru Urban Town Police Station
+FIR/2024/HUB/00627,Hubballi-Dharwad,Fraud,420 IPC,2024-11-18,Open,Rishi Menon,Peter Borde,39,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00628,Bengaluru Urban,Cybercrime,66C IT Act,2024-01-08,Open,Oscar Varkey,Krishna Baria,31,Bengaluru Urban Town Police Station
+FIR/2025/KOP/00629,Koppal,Assault,351 IPC,2025-01-09,Under Investigation,Arya Lalla,Naveen Kumer,18,Koppal Town Police Station
+FIR/2025/CHI/00630,Chikkamagaluru,Fraud,420 IPC,2025-05-19,Open,Ganga Shukla,Balveer Dube,34,Chikkamagaluru Town Police Station
+FIR/2024/BEN/00631,Bengaluru Urban,Domestic violence,498A IPC,2024-02-13,Under Investigation,Charan Mitra,Ishita Bora,32,Bengaluru Urban Town Police Station
+FIR/2024/CHA/00632,Chamarajanagar,Assault,351 IPC,2024-08-12,Under Investigation,Thomas Gour,Yashasvi Dutta,35,Chamarajanagar Town Police Station
+FIR/2024/TUM/00633,Tumakuru,Sexual offences,375 IPC,2024-12-12,Under Investigation,Netra Chanda,Timothy Kala,33,Tumakuru Town Police Station
+FIR/2024/HUB/00634,Hubballi-Dharwad,Kidnapping,359 IPC,2024-04-12,Under Investigation,Garima Patel,Tejas Wali,25,Hubballi-Dharwad Town Police Station
+FIR/2024/HUB/00635,Hubballi-Dharwad,Theft,379 IPC,2024-11-29,Open,Aditya Contractor,Sanaya Khosla,55,Hubballi-Dharwad Town Police Station
+FIR/2024/TUM/00636,Tumakuru,Domestic violence,498A IPC,2024-11-02,Open,Balveer Nagi,Ishaan Raju,31,Tumakuru Town Police Station
+FIR/2025/BEL/00637,Belagavi,Theft,379 IPC,2025-01-22,Closed,Barkha Bakshi,Yoshita Trivedi,40,Belagavi Town Police Station
+FIR/2024/SHI/00638,Shivamogga,Robbery,392 IPC,2024-11-14,Under Investigation,Vidhi Bassi,Reyansh Nagi,36,Shivamogga Town Police Station
+FIR/2024/BEN/00639,Bengaluru Urban,Property damage,425 IPC,2024-08-08,Open,Gopal Ganesh,Dominic Kade,55,Bengaluru Urban Town Police Station
+FIR/2024/CHI/00640,Chitradurga,Kidnapping,359 IPC,2024-05-18,Open,Panini Chawla,Radhika Bora,38,Chitradurga Town Police Station
+FIR/2024/CHI/00641,Chitradurga,Murder,302 IPC,2024-07-31,Under Investigation,Arjun Sharaf,Baljiwan Chahal,43,Chitradurga Town Police Station
+FIR/2024/RAI/00642,Raichur,Fraud,420 IPC,2024-08-08,Open,Chatura Gokhale,Ekavir Kari,41,Raichur Town Police Station
+FIR/2025/BEN/00643,Bengaluru Urban,Theft,379 IPC,2025-01-08,Open,Nikita Rama,Nidhi Sant,40,Bengaluru Urban Town Police Station
+FIR/2024/HUB/00644,Hubballi-Dharwad,Fraud,420 IPC,2024-09-16,Open,Anay Ramachandran,Abeer Bhatnagar,51,Hubballi-Dharwad Town Police Station
+FIR/2024/MAN/00645,Mangaluru,Assault,351 IPC,2024-04-18,Open,Elijah Parmar,Bimala Mitra,43,Mangaluru Town Police Station
+FIR/2025/MYS/00646,Mysuru,Murder,302 IPC,2025-02-09,Closed,Baghyawati Sarma,Megha Balasubramanian,33,Mysuru Town Police Station
+FIR/2025/KOD/00647,Kodagu,Robbery,392 IPC,2025-02-24,Under Investigation,Naksh Walla,Laban Raman,31,Kodagu Town Police Station
+FIR/2024/BEL/00648,Belagavi,Other,Others,2024-08-16,Open,Maanas Misra,Advay Dhaliwal,27,Belagavi Town Police Station
+FIR/2025/HUB/00649,Hubballi-Dharwad,Property damage,425 IPC,2025-03-03,Under Investigation,Benjamin Ahluwalia,Frederick Mody,41,Hubballi-Dharwad Town Police Station
+FIR/2024/KOP/00650,Koppal,Assault,351 IPC,2024-11-22,Open,Hemangini Kakar,Yauvani Dhar,31,Koppal Town Police Station
+FIR/2024/HUB/00651,Hubballi-Dharwad,Cybercrime,66C IT Act,2024-06-13,Closed,Qarin Kant,Rishi Contractor,38,Hubballi-Dharwad Town Police Station
+FIR/2025/CHI/00652,Chitradurga,Kidnapping,359 IPC,2025-03-08,Under Investigation,Chatura Shenoy,Bina Bhavsar,18,Chitradurga Town Police Station
+FIR/2024/KOD/00653,Kodagu,Sexual offences,375 IPC,2024-01-07,Open,Guneet Hora,Ganga Parikh,18,Kodagu Town Police Station
+FIR/2024/CHI/00654,Chikkamagaluru,Assault,351 IPC,2024-04-28,Open,Wahab Chaudhry,Ekaraj Hari,22,Chikkamagaluru Town Police Station
+FIR/2025/MYS/00655,Mysuru,Drug offences,21 NDPS Act,2025-03-21,Open,Vedika Seshadri,Damini Dua,26,Mysuru Town Police Station
+FIR/2024/SHI/00656,Shivamogga,Cybercrime,66C IT Act,2024-08-01,Under Investigation,Diya Sangha,Aayush Munshi,46,Shivamogga Town Police Station
+FIR/2024/CHI/00657,Chikkaballapura,Property damage,425 IPC,2024-07-01,Open,Timothy Sarin,Jagvi Desai,36,Chikkaballapura Town Police Station
+FIR/2024/TUM/00658,Tumakuru,Kidnapping,359 IPC,2024-01-30,Open,Varsha Shere,Jagrati Mody,18,Tumakuru Town Police Station
+FIR/2024/HUB/00659,Hubballi-Dharwad,Other,Others,2024-10-22,Closed,Ikbal Gill,Avni Dey,52,Hubballi-Dharwad Town Police Station
+FIR/2024/CHA/00660,Chamarajanagar,Robbery,392 IPC,2024-12-25,Under Investigation,Adya Bose,Anirudh Tripathi,28,Chamarajanagar Town Police Station
+FIR/2025/MYS/00661,Mysuru,Theft,379 IPC,2025-01-23,Open,Nidhi Kala,Abha Zacharia,18,Mysuru Town Police Station
+FIR/2024/BEN/00662,Bengaluru Urban,Cybercrime,66C IT Act,2024-09-12,Closed,Manthan Pau,Udant Mannan,39,Bengaluru Urban Town Police Station
+FIR/2025/KAL/00663,Kalaburagi,Murder,302 IPC,2025-01-29,Under Investigation,Ucchal Thaker,Mekhala Patla,34,Kalaburagi Town Police Station
+FIR/2024/MAN/00664,Mandya,Kidnapping,359 IPC,2024-08-04,Open,William Gandhi,Sanaya Dutta,66,Mandya Town Police Station
+FIR/2024/RAI/00665,Raichur,Property damage,425 IPC,2024-05-10,Open,Madhav Sule,Banjeet Kanda,21,Raichur Town Police Station
+FIR/2025/CHI/00666,Chikkamagaluru,Drug offences,21 NDPS Act,2025-01-23,Open,Vincent Bhatnagar,Kala Kaur,31,Chikkamagaluru Town Police Station
+FIR/2025/MYS/00667,Mysuru,Fraud,420 IPC,2025-02-12,Open,Samuel Vasa,Lipika Singh,39,Mysuru Town Police Station
+FIR/2024/MYS/00668,Mysuru,Theft,379 IPC,2024-12-12,Open,Chakradhar Baral,Harshil Verma,18,Mysuru Town Police Station
+FIR/2025/MAN/00669,Mangaluru,Sexual offences,375 IPC,2025-02-18,Closed,Adya Ghosh,Kritika Pau,31,Mangaluru Town Police Station
+FIR/2025/SHI/00670,Shivamogga,Assault,351 IPC,2025-03-13,Open,Zansi Krishnamurthy,Udant Varty,46,Shivamogga Town Police Station
+FIR/2025/BEN/00671,Bengaluru Rural,Theft,379 IPC,2025-02-23,Open,Ira Pai,Vasatika Ahuja,29,Bengaluru Rural Town Police Station
+FIR/2024/BEN/00672,Bengaluru Rural,Domestic violence,498A IPC,2024-01-23,Open,Ria Gandhi,Faraj Varkey,36,Bengaluru Rural Town Police Station
+FIR/2024/TUM/00673,Tumakuru,Kidnapping,359 IPC,2024-07-09,Open,Siddharth Doctor,Nakul Pathak,31,Tumakuru Town Police Station
+FIR/2024/CHI/00674,Chikkamagaluru,Property damage,425 IPC,2024-06-29,Closed,Victor Sachdeva,Ishaan Subramaniam,48,Chikkamagaluru Town Police Station
+FIR/2024/RAM/00675,Ramanagara,Sexual offences,375 IPC,2024-01-03,Under Investigation,Varenya Kade,Nirja Bains,30,Ramanagara Town Police Station
+FIR/2024/MAN/00676,Mandya,Sexual offences,375 IPC,2024-10-26,Open,Caleb Datta,Krish Vala,49,Mandya Town Police Station
+FIR/2025/BEL/00677,Belagavi,Property damage,425 IPC,2025-01-26,Open,Manan Bhalla,Aarna Gole,68,Belagavi Town Police Station
+FIR/2025/HUB/00678,Hubballi-Dharwad,Other,Others,2025-01-18,Open,Anirudh Mander,Tarak Sen,36,Hubballi-Dharwad Town Police Station
+FIR/2024/KOD/00679,Kodagu,Cybercrime,66C IT Act,2024-05-13,Under Investigation,Vasatika Garde,Nirja Dhar,33,Kodagu Town Police Station
+FIR/2025/MAN/00680,Mangaluru,Property damage,425 IPC,2025-04-03,Open,Yasti Lalla,Hema Setty,22,Mangaluru Town Police Station
+FIR/2024/MAN/00681,Mangaluru,Domestic violence,498A IPC,2024-05-19,Open,Victor Radhakrishnan,Kevin Chopra,39,Mangaluru Town Police Station
+FIR/2024/BEL/00682,Belagavi,Drug offences,21 NDPS Act,2024-11-05,Under Investigation,Samaksh Virk,Mason Char,39,Belagavi Town Police Station
+FIR/2024/KOD/00683,Kodagu,Cybercrime,66C IT Act,2024-10-28,Open,Vamakshi Barad,Girik Subramaniam,42,Kodagu Town Police Station
+FIR/2024/MAN/00684,Mangaluru,Kidnapping,359 IPC,2024-12-06,Under Investigation,Aarav Sankar,Kamala Bassi,46,Mangaluru Town Police Station
+FIR/2025/HUB/00685,Hubballi-Dharwad,Fraud,420 IPC,2025-01-21,Open,Veer Subramaniam,Inaya Chaudhari,21,Hubballi-Dharwad Town Police Station
+FIR/2024/DAV/00686,Davangere,Other,Others,2024-08-26,Open,Krish Kumar,Viraj Chacko,47,Davangere Town Police Station
+FIR/2025/BEN/00687,Bengaluru Urban,Murder,302 IPC,2025-02-24,Under Investigation,Nilima Kurian,Abdul Amble,40,Bengaluru Urban Town Police Station
+FIR/2025/MAN/00688,Mandya,Fraud,420 IPC,2025-02-09,Under Investigation,Zinal Amble,Samesh Mutti,27,Mandya Town Police Station
+FIR/2024/HUB/00689,Hubballi-Dharwad,Murder,302 IPC,2024-05-13,Open,Janaki Chhabra,Pooja Kulkarni,40,Hubballi-Dharwad Town Police Station
+FIR/2025/CHA/00690,Chamarajanagar,Robbery,392 IPC,2025-03-01,Under Investigation,Pallavi Pau,Mekhala Jani,39,Chamarajanagar Town Police Station
+FIR/2024/MAN/00691,Mangaluru,Domestic violence,498A IPC,2024-09-22,Under Investigation,Vasudha Gola,Veda Kulkarni,40,Mangaluru Town Police Station
+FIR/2024/MAN/00692,Mangaluru,Fraud,420 IPC,2024-02-18,Under Investigation,Hemangini Rao,Jagat Karpe,42,Mangaluru Town Police Station
+FIR/2025/VIJ/00693,Vijayanagara,Domestic violence,498A IPC,2025-05-30,Open,Neel Chaudhry,Yashoda Rattan,45,Vijayanagara Town Police Station
+FIR/2024/KOD/00694,Kodagu,Property damage,425 IPC,2024-01-03,Open,Charles Dyal,Abdul Chand,18,Kodagu Town Police Station
+FIR/2024/BEL/00695,Belagavi,Robbery,392 IPC,2024-01-12,Open,Urishilla Saran,Devansh Lall,42,Belagavi Town Police Station
+FIR/2024/CHI/00696,Chitradurga,Domestic violence,498A IPC,2024-01-08,Open,Kamala Buch,Leena Rattan,22,Chitradurga Town Police Station
+FIR/2024/MYS/00697,Mysuru,Domestic violence,498A IPC,2024-01-03,Closed,Dakshesh Gill,Reva Anne,48,Mysuru Town Police Station
+FIR/2024/MAN/00698,Mangaluru,Property damage,425 IPC,2024-07-20,Open,Zarna Mangal,Bahadurjit Uppal,51,Mangaluru Town Police Station
+FIR/2024/HAS/00699,Hassan,Domestic violence,498A IPC,2024-10-25,Open,Omkaar Banik,William Acharya,44,Hassan Town Police Station
+FIR/2025/CHA/00700,Chamarajanagar,Domestic violence,498A IPC,2025-04-24,Open,Gabriel Majumdar,Ira Rana,18,Chamarajanagar Town Police Station
+FIR/2024/BEN/00701,Bengaluru Rural,Other,Others,2024-09-11,Under Investigation,Sai Vasa,Ekapad Chana,36,Bengaluru Rural Town Police Station
+FIR/2024/MAN/00702,Mangaluru,Fraud,420 IPC,2024-11-02,Open,Ijaya Palan,Upkaar Hayer,58,Mangaluru Town Police Station
+FIR/2024/HAS/00703,Hassan,Theft,379 IPC,2024-12-08,Open,Netra Agrawal,Parth Ray,37,Hassan Town Police Station
+FIR/2024/BEN/00704,Bengaluru Urban,Domestic violence,498A IPC,2024-12-25,Under Investigation,Elijah Thakur,Harini Dada,42,Bengaluru Urban Town Police Station
+FIR/2025/HUB/00705,Hubballi-Dharwad,Robbery,392 IPC,2025-01-20,Under Investigation,Zashil Savant,Veda Kohli,18,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00706,Bengaluru Urban,Theft,379 IPC,2024-12-13,Under Investigation,Tara Sharma,Vasatika Dada,30,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00707,Bengaluru Urban,Cybercrime,66C IT Act,2024-11-10,Under Investigation,Ekansh Raja,Victor Mutti,39,Bengaluru Urban Town Police Station
+FIR/2024/YAD/00708,Yadgir,Fraud,420 IPC,2024-12-19,Closed,Ira Varty,Adya Kothari,40,Yadgir Town Police Station
+FIR/2025/CHI/00709,Chikkaballapura,Theft,379 IPC,2025-01-06,Open,Girik Rastogi,Faqid Gokhale,39,Chikkaballapura Town Police Station
+FIR/2024/BAL/00710,Ballari,Drug offences,21 NDPS Act,2024-02-18,Open,Dipta Pandya,Amruta Goswami,32,Ballari Town Police Station
+FIR/2024/DHA/00711,Dharwad,Drug offences,21 NDPS Act,2024-04-29,Closed,Wishi Iyengar,Wyatt Lanka,18,Dharwad Town Police Station
+FIR/2024/UDU/00712,Udupi,Domestic violence,498A IPC,2024-04-18,Under Investigation,Veer Jain,Ishani Dugal,42,Udupi Town Police Station
+FIR/2025/CHI/00713,Chikkaballapura,Domestic violence,498A IPC,2025-01-15,Open,Jagdish Brar,Abeer Basak,38,Chikkaballapura Town Police Station
+FIR/2024/MAN/00714,Mangaluru,Murder,302 IPC,2024-02-02,Open,Kamya Murty,Anvi Swaminathan,35,Mangaluru Town Police Station
+FIR/2024/BEN/00715,Bengaluru Urban,Kidnapping,359 IPC,2024-07-23,Under Investigation,Yasti Mammen,Tristan Dave,31,Bengaluru Urban Town Police Station
+FIR/2025/SHI/00716,Shivamogga,Theft,379 IPC,2025-01-29,Open,Pallavi Sridhar,Yadavi Palan,27,Shivamogga Town Police Station
+FIR/2025/MAN/00717,Mangaluru,Fraud,420 IPC,2025-05-01,Open,Owen Shankar,Zarna Sharma,26,Mangaluru Town Police Station
+FIR/2025/MAN/00718,Mangaluru,Assault,351 IPC,2025-05-17,Under Investigation,Abhiram Arora,Ladli Chaudhuri,34,Mangaluru Town Police Station
+FIR/2024/HUB/00719,Hubballi-Dharwad,Drug offences,21 NDPS Act,2024-04-16,Under Investigation,Janaki Lad,Adya Khalsa,40,Hubballi-Dharwad Town Police Station
+FIR/2024/HUB/00720,Hubballi-Dharwad,Drug offences,21 NDPS Act,2024-03-07,Open,Urishilla Oza,Qarin Tara,51,Hubballi-Dharwad Town Police Station
+FIR/2024/BEN/00721,Bengaluru Urban,Murder,302 IPC,2024-03-28,Under Investigation,Shivansh Saini,Janya Rattan,21,Bengaluru Urban Town Police Station
+FIR/2025/MAN/00722,Mandya,Fraud,420 IPC,2025-03-22,Open,Shravya Gole,Veer Chaudhry,34,Mandya Town Police Station
+FIR/2024/BEL/00723,Belagavi,Other,Others,2024-11-14,Open,Warinder Sankaran,Rohan Dhingra,24,Belagavi Town Police Station
+FIR/2024/MAN/00724,Mangaluru,Property damage,425 IPC,2024-09-17,Open,Urvashi Andra,Oviya Tata,18,Mangaluru Town Police Station
+FIR/2024/MAN/00725,Mangaluru,Cybercrime,66C IT Act,2024-08-15,Closed,Zansi Walla,Vidhi Mital,44,Mangaluru Town Police Station
+FIR/2024/BEL/00726,Belagavi,Kidnapping,359 IPC,2024-01-30,Open,Champak Rao,Nihal Bhasin,55,Belagavi Town Police Station
+FIR/2025/VIJ/00727,Vijayapura,Robbery,392 IPC,2025-05-26,Under Investigation,Aachal Soni,Shivani Natt,31,Vijayapura Town Police Station
+FIR/2025/MYS/00728,Mysuru,Kidnapping,359 IPC,2025-03-09,Closed,Jalsa Parsa,Hemangini Bahri,31,Mysuru Town Police Station
+FIR/2025/MYS/00729,Mysuru,Theft,379 IPC,2025-02-07,Open,Jairaj Panchal,Owen Mane,43,Mysuru Town Police Station
+FIR/2024/UDU/00730,Udupi,Other,Others,2024-07-05,Under Investigation,Ekta Uppal,Sanya Brar,58,Udupi Town Police Station
+FIR/2024/MAN/00731,Mangaluru,Kidnapping,359 IPC,2024-12-26,Open,Bhavini Sheth,Oliver Nazareth,46,Mangaluru Town Police Station
+FIR/2024/CHI/00732,Chikkaballapura,Cybercrime,66C IT Act,2024-03-31,Open,Nidhi Bora,Neel Oza,35,Chikkaballapura Town Police Station
+FIR/2025/VIJ/00733,Vijayapura,Property damage,425 IPC,2025-03-24,Open,Dipta Nadig,Amara Rana,24,Vijayapura Town Police Station
+FIR/2024/MYS/00734,Mysuru,Drug offences,21 NDPS Act,2024-04-05,Open,Sai Patil,Odika Ganesh,46,Mysuru Town Police Station
+FIR/2025/HUB/00735,Hubballi-Dharwad,Fraud,420 IPC,2025-03-02,Open,Arin Dass,Zayan Buch,21,Hubballi-Dharwad Town Police Station
+FIR/2025/BEL/00736,Belagavi,Robbery,392 IPC,2025-04-29,Under Investigation,Ojas Ranganathan,Girish Bhatt,37,Belagavi Town Police Station
+FIR/2025/BEL/00737,Belagavi,Domestic violence,498A IPC,2025-03-12,Under Investigation,Chatura Bal,Fiyaz Chawla,41,Belagavi Town Police Station
+FIR/2025/HUB/00738,Hubballi-Dharwad,Murder,302 IPC,2025-03-27,Open,Nachiket Chad,Dayamai Karnik,23,Hubballi-Dharwad Town Police Station
+FIR/2025/HUB/00739,Hubballi-Dharwad,Property damage,425 IPC,2025-02-12,Under Investigation,Bhanumati Savant,Karan Vyas,27,Hubballi-Dharwad Town Police Station
+FIR/2024/MAN/00740,Mangaluru,Cybercrime,66C IT Act,2024-05-31,Open,Ayush Banerjee,Eshana Soni,40,Mangaluru Town Police Station
+FIR/2024/KOP/00741,Koppal,Kidnapping,359 IPC,2024-05-30,Open,Anita Saxena,Peter Shan,38,Koppal Town Police Station
+FIR/2025/MAN/00742,Mangaluru,Cybercrime,66C IT Act,2025-02-02,Under Investigation,Dayita Palan,Utkarsh Chakraborty,32,Mangaluru Town Police Station
+FIR/2024/TUM/00743,Tumakuru,Fraud,420 IPC,2024-08-09,Open,Darika Pau,Abha Dugal,49,Tumakuru Town Police Station
+FIR/2025/MYS/00744,Mysuru,Murder,302 IPC,2025-01-28,Open,Advaith Acharya,Hemangini Mangat,30,Mysuru Town Police Station
+FIR/2024/BID/00745,Bidar,Robbery,392 IPC,2024-11-13,Closed,Abhiram Swamy,Chandani Andra,41,Bidar Town Police Station
+FIR/2024/BEN/00746,Bengaluru Urban,Assault,351 IPC,2024-05-23,Under Investigation,Brinda Kashyap,Kashvi Gulati,82,Bengaluru Urban Town Police Station
+FIR/2025/HAV/00747,Haveri,Cybercrime,66C IT Act,2025-02-14,Under Investigation,Rajeshri Rana,Nihal Ramakrishnan,27,Haveri Town Police Station
+FIR/2024/MAN/00748,Mangaluru,Sexual offences,375 IPC,2024-11-09,Open,Thomas Lall,Pahal Khatri,21,Mangaluru Town Police Station
+FIR/2024/MYS/00749,Mysuru,Cybercrime,66C IT Act,2024-11-11,Open,Bhavani Wali,Nitara Guha,36,Mysuru Town Police Station
+FIR/2024/BID/00750,Bidar,Cybercrime,66C IT Act,2024-05-02,Under Investigation,Qabil Deshpande,Indrajit Shah,27,Bidar Town Police Station
+FIR/2025/VIJ/00751,Vijayapura,Kidnapping,359 IPC,2025-04-23,Open,Anita Swamy,Ekani Bahl,48,Vijayapura Town Police Station
+FIR/2025/MAN/00752,Mangaluru,Drug offences,21 NDPS Act,2025-02-04,Open,Chandran Warrior,Quincy Chaudry,25,Mangaluru Town Police Station
+FIR/2024/BEL/00753,Belagavi,Cybercrime,66C IT Act,2024-06-20,Open,Amruta Dass,Abhiram Kaul,36,Belagavi Town Police Station
+FIR/2024/BAL/00754,Ballari,Fraud,420 IPC,2024-12-16,Open,Matthew Aurora,Teerth Oommen,30,Ballari Town Police Station
+FIR/2024/RAM/00755,Ramanagara,Kidnapping,359 IPC,2024-11-05,Open,Devika Tara,Ubika Balay,43,Ramanagara Town Police Station
+FIR/2024/BEL/00756,Belagavi,Assault,351 IPC,2024-12-15,Open,Faris Dhingra,Amaira Ramanathan,32,Belagavi Town Police Station
+FIR/2025/BEL/00757,Belagavi,Other,Others,2025-05-25,Open,Upma Golla,Zashil Raj,27,Belagavi Town Police Station
+FIR/2024/MAN/00758,Mangaluru,Cybercrime,66C IT Act,2024-02-15,Closed,Jairaj Kothari,Saanvi Kota,32,Mangaluru Town Police Station
+FIR/2024/SHI/00759,Shivamogga,Other,Others,2024-04-05,Open,Rushil Sharma,Sathvik Solanki,21,Shivamogga Town Police Station
+FIR/2025/VIJ/00760,Vijayanagara,Sexual offences,375 IPC,2025-04-16,Open,Devika Naidu,Brijesh Verma,38,Vijayanagara Town Police Station
+FIR/2024/BEN/00761,Bengaluru Urban,Fraud,420 IPC,2024-12-07,Under Investigation,Zehaan Srivastava,Rushil Patel,40,Bengaluru Urban Town Police Station
+FIR/2024/BAG/00762,Bagalkot,Murder,302 IPC,2024-02-29,Closed,Tejas Chowdhury,Radha Nair,53,Bagalkot Town Police Station
+FIR/2024/CHI/00763,Chitradurga,Robbery,392 IPC,2024-04-19,Under Investigation,Oliver Majumdar,Meghana Kibe,18,Chitradurga Town Police Station
+FIR/2025/CHI/00764,Chikkaballapura,Assault,351 IPC,2025-01-25,Open,Brijesh Soman,Kamya Chakraborty,18,Chikkaballapura Town Police Station
+FIR/2024/HUB/00765,Hubballi-Dharwad,Cybercrime,66C IT Act,2024-08-15,Under Investigation,Nakul Tata,Hamsini Bhasin,36,Hubballi-Dharwad Town Police Station
+FIR/2024/CHA/00766,Chamarajanagar,Assault,351 IPC,2024-03-02,Under Investigation,Ishani Dube,Jeremiah Sura,42,Chamarajanagar Town Police Station
+FIR/2024/DAV/00767,Davangere,Fraud,420 IPC,2024-12-17,Closed,Edhitha Palan,Reyansh Bail,39,Davangere Town Police Station
+FIR/2024/RAI/00768,Raichur,Drug offences,21 NDPS Act,2024-03-01,Open,Ishita Desai,Balveer Sundaram,27,Raichur Town Police Station
+FIR/2025/BAG/00769,Bagalkot,Other,Others,2025-01-13,Under Investigation,Chaitaly Suri,Rachit Pall,57,Bagalkot Town Police Station
+FIR/2025/CHI/00770,Chikkaballapura,Theft,379 IPC,2025-02-05,Open,Upadhriti Maharaj,Ekapad Wali,44,Chikkaballapura Town Police Station
+FIR/2024/BEN/00771,Bengaluru Urban,Murder,302 IPC,2024-08-27,Open,Shivani Merchant,Jeevika Setty,26,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00772,Bengaluru Rural,Murder,302 IPC,2024-02-04,Open,Yashawini Raghavan,Anirudh Patla,40,Bengaluru Rural Town Police Station
+FIR/2025/MYS/00773,Mysuru,Property damage,425 IPC,2025-02-11,Under Investigation,Ekani Bhatnagar,Ranveer Viswanathan,59,Mysuru Town Police Station
+FIR/2024/VIJ/00774,Vijayapura,Fraud,420 IPC,2024-08-06,Under Investigation,Mitesh Mandal,Nimrat Nagy,28,Vijayapura Town Police Station
+FIR/2024/MYS/00775,Mysuru,Sexual offences,375 IPC,2024-12-23,Open,Gopal Virk,Caleb Dayal,29,Mysuru Town Police Station
+FIR/2024/HUB/00776,Hubballi-Dharwad,Cybercrime,66C IT Act,2024-05-10,Open,Azad Jaggi,Vedika Handa,47,Hubballi-Dharwad Town Police Station
+FIR/2025/YAD/00777,Yadgir,Fraud,420 IPC,2025-04-07,Under Investigation,Azad Rama,Aahana Bawa,29,Yadgir Town Police Station
+FIR/2024/MYS/00778,Mysuru,Cybercrime,66C IT Act,2024-06-18,Open,Timothy Bobal,Sathvik Swamy,34,Mysuru Town Police Station
+FIR/2024/MAN/00779,Mangaluru,Fraud,420 IPC,2024-10-18,Open,Upadhriti Bhat,Ojasvi Pillay,24,Mangaluru Town Police Station
+FIR/2025/MYS/00780,Mysuru,Fraud,420 IPC,2025-01-28,Under Investigation,Amaira Wadhwa,Ekavir Modi,24,Mysuru Town Police Station
+FIR/2025/BEN/00781,Bengaluru Urban,Murder,302 IPC,2025-04-26,Under Investigation,Tarak Venkataraman,Harrison Kashyap,27,Bengaluru Urban Town Police Station
+FIR/2025/DAV/00782,Davangere,Property damage,425 IPC,2025-04-28,Open,Ranveer Hans,Praneel Sagar,44,Davangere Town Police Station
+FIR/2024/TUM/00783,Tumakuru,Assault,351 IPC,2024-10-17,Under Investigation,Ishita Shanker,Hemang Ganesan,20,Tumakuru Town Police Station
+FIR/2024/BEN/00784,Bengaluru Urban,Other,Others,2024-03-01,Under Investigation,Neelima Thaman,Nakul Walla,37,Bengaluru Urban Town Police Station
+FIR/2024/BEN/00785,Bengaluru Urban,Robbery,392 IPC,2024-04-29,Under Investigation,Indira Murty,Kamya Sachar,40,Bengaluru Urban Town Police Station
+FIR/2025/KOP/00786,Koppal,Other,Others,2025-02-24,Under Investigation,Ekiya Khosla,Keya Kumar,18,Koppal Town Police Station
+FIR/2024/MYS/00787,Mysuru,Assault,351 IPC,2024-08-01,Under Investigation,Sneha Sem,Aadi Banerjee,26,Mysuru Town Police Station
+FIR/2024/BID/00788,Bidar,Assault,351 IPC,2024-10-14,Open,Amol Vasa,Chasmum Ahuja,36,Bidar Town Police Station
+FIR/2024/DHA/00789,Dharwad,Robbery,392 IPC,2024-04-29,Open,Tristan Kala,Anthony Majumdar,18,Dharwad Town Police Station
+FIR/2024/CHI/00790,Chikkamagaluru,Sexual offences,375 IPC,2024-06-10,Under Investigation,Girindra Barad,Ishani Dugal,34,Chikkamagaluru Town Police Station
+FIR/2024/BEL/00791,Belagavi,Sexual offences,375 IPC,2024-05-27,Open,Alka Peri,Viraj Kunda,27,Belagavi Town Police Station
+FIR/2024/BEL/00792,Belagavi,Theft,379 IPC,2024-11-28,Under Investigation,George Ratta,Faras Nair,56,Belagavi Town Police Station
+FIR/2025/YAD/00793,Yadgir,Kidnapping,359 IPC,2025-03-05,Open,Oscar Sura,Charita Barad,32,Yadgir Town Police Station
+FIR/2024/BEL/00794,Belagavi,Kidnapping,359 IPC,2024-09-15,Open,Farhan Bhalla,Ijaya Saraf,48,Belagavi Town Police Station
+FIR/2024/HUB/00795,Hubballi-Dharwad,Property damage,425 IPC,2024-09-22,Open,Jai Karan,Lavanya Bhagat,18,Hubballi-Dharwad Town Police Station
+FIR/2025/BEN/00796,Bengaluru Urban,Robbery,392 IPC,2025-03-03,Under Investigation,Benjamin Nagar,Eta Thakkar,44,Bengaluru Urban Town Police Station
+FIR/2024/UDU/00797,Udupi,Assault,351 IPC,2024-04-30,Open,Michael Bedi,Sanaya Thaman,38,Udupi Town Police Station
+FIR/2024/MAN/00798,Mangaluru,Cybercrime,66C IT Act,2024-07-25,Under Investigation,Tristan Sankaran,Meera Divan,38,Mangaluru Town Police Station
+FIR/2025/HUB/00799,Hubballi-Dharwad,Domestic violence,498A IPC,2025-02-06,Closed,Gayathri Butala,Chandran Rastogi,32,Hubballi-Dharwad Town Police Station
+FIR/2025/MAN/00800,Mangaluru,Domestic violence,498A IPC,2025-04-29,Open,Frederick Rastogi,Kalpit Deshmukh,18,Mangaluru Town Police Station
