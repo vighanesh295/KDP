@@ -95,6 +95,45 @@ csv_path = os.path.join(output_dir, "synthetic_fir.csv")
 df.to_csv(csv_path, index=False)
 print(f"SUCCESS: Generated {len(df)} rows in synthetic_fir.csv")
 
+# Create district socioeconomic feature dataset
+semi_urban_districts = [
+    "Bengaluru Rural", "Kalaburagi", "Davangere", "Shivamogga", "Vijayapura", "Ballari",
+    "Hassan", "Bagalkot", "Raichur", "Mandya", "Chitradurga", "Gadag", "Haveri", "Bidar", "Koppal"
+]
+
+rural_districts = [d for d in districts if d not in urban_districts + semi_urban_districts]
+
+feature_rows = []
+for district in districts:
+    if district in urban_districts:
+        density = np.random.normal(loc=3300, scale=420)
+        literacy = np.random.normal(loc=93.0, scale=2.5)
+        unemployment = np.random.normal(loc=5.2, scale=1.0)
+        urbanization = np.random.normal(loc=0.92, scale=0.03)
+    elif district in semi_urban_districts:
+        density = np.random.normal(loc=1200, scale=240)
+        literacy = np.random.normal(loc=86.5, scale=2.8)
+        unemployment = np.random.normal(loc=7.3, scale=1.1)
+        urbanization = np.random.normal(loc=0.62, scale=0.06)
+    else:
+        density = np.random.normal(loc=310, scale=120)
+        literacy = np.random.normal(loc=75.5, scale=3.5)
+        unemployment = np.random.normal(loc=10.2, scale=1.2)
+        urbanization = np.random.normal(loc=0.30, scale=0.07)
+
+    feature_rows.append({
+        "district": district,
+        "population_density": int(max(60, np.round(density))),
+        "literacy_rate": round(min(99.9, max(55.0, literacy)), 1),
+        "unemployment_rate": round(min(14.0, max(2.5, unemployment)), 1),
+        "urbanization_index": round(min(0.99, max(0.12, urbanization)), 2)
+    })
+
+features_df = pd.DataFrame(feature_rows)
+feature_csv_path = os.path.join(output_dir, "district_features.csv")
+features_df.to_csv(feature_csv_path, index=False)
+print(f"SUCCESS: Generated {len(features_df)} rows in district_features.csv")
+
 # Verify constraints
 print("\n--- Validation ---")
 print(f"Total rows: {len(df)}")
@@ -103,3 +142,4 @@ print(df['district'].value_counts().head(5))
 print("\nTheft incidents by month (Expect peak in Dec/Jan):")
 df['month'] = pd.to_datetime(df['date']).dt.month
 print(df[df['crime_type'] == 'Theft']['month'].value_counts().head(5))
+print("\nDistrict feature sample:\n", features_df.head(6).to_string(index=False))

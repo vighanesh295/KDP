@@ -65,9 +65,10 @@ Rules:
 - Provide practical investigation recommendations where relevant.
 """
 
-async def ask_gemini(prompt: str) -> str:
+async def ask_gemini(prompt: str, language: str = "en") -> dict:
     """
-    Send a prompt to Gemini and return the response.
+    Send a prompt to Gemini and return a structured response dict:
+    { answer: str, reasoning: str }
     """
 
     if not API_KEY:
@@ -77,17 +78,62 @@ async def ask_gemini(prompt: str) -> str:
         # Gemini model
         model = genai.GenerativeModel("gemini-2.5-flash")
 
-        # Combine system context with user prompt
-        full_prompt = f"{SYSTEM_CONTEXT}\n\nUser Question:\n{prompt}"
+        # If Kannada is requested, prepend special instruction to ensure Kannada response
+        language_instruction = ""
+        if language and language.lower() == "kn":
+            language_instruction = (
+                "The officer is asking in Kannada or wants a Kannada response."
+                " Detect the input language. Respond in Kannada (ಕನ್ನಡ) using Kannada script."
+                " If the question is in English but language is set to Kannada, still respond in Kannada."
+            )
+
+        # Ask for a structured response: short answer then a REASONING: line
+        # ENFORCE reasoning to always be included, even for simple queries
+        structured_instruction = (
+            "Answer the officer's question in 2-4 sentences. "
+            "ALWAYS end with a new line starting with 'REASONING:' followed by an explanation of your answer. "
+            "If you based your answer on specific data (e.g., case counts, districts, crime types), mention it. "
+            "If you provided general police knowledge or a greeting, write: "
+            "'REASONING: General conversational response based on police operational knowledge.' "
+            "Do NOT skip the REASONING section under any circumstances."
+        )
+
+        # Combine language instruction (if any), system context, instruction, and user prompt
+        segments = [language_instruction, SYSTEM_CONTEXT, structured_instruction]
+        full_prompt = "\n\n".join([s for s in segments if s]) + f"\n\nUser Question:\n{prompt}"
 
         # Generate response
         response = await model.generate_content_async(full_prompt)
 
-        # Validate response
-        if not hasattr(response, "text") or not response.text:
+        # Extract text
+        text = None
+        if hasattr(response, "text") and response.text:
+            text = response.text
+        elif hasattr(response, "result") and getattr(response.result, "candidates", None):
+            # Some SDK versions present candidates
+            text = response.result.candidates[0].get("content", {}).get("text")
+
+        if not text:
             raise Exception("Gemini returned an empty response.")
 
-        return response.text.strip()
+        text = text.strip()
+
+        # LOG RAW RESPONSE FOR DEBUGGING
+        print(f"\n[GEMINI RAW RESPONSE]\n{text}\n[END RAW RESPONSE]\n")
+
+        # Parse structured response. Look for 'REASONING:' (case-insensitive)
+        import re
+        parts = re.split(r"REASONING:\s*", text, flags=re.IGNORECASE, maxsplit=1)
+        if len(parts) == 2:
+            answer = parts[0].strip()
+            reasoning = parts[1].strip()
+        else:
+            # Fallback: no explicit reasoning section found; provide a default
+            answer = text
+            reasoning = "REASONING: Response generated without explicit data reference."
+            print(f"[WARNING] No REASONING section found in response; using default fallback.")
+
+        return {"answer": answer, "reasoning": reasoning}
 
     except Exception as e:
         raise Exception(f"Failed to get response from Gemini API: {str(e)}")

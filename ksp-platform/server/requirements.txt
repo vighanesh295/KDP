@@ -6,5 +6,7 @@ scikit-learn
 spacy
 faker
 python-dotenv
+PyJWT
 google-generativeai
+pypdf
 joblib

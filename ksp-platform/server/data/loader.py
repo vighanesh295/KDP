@@ -14,6 +14,15 @@ except Exception as e:
     print(f"Error loading CSV: {e}")
     df = pd.DataFrame()
 
+FEATURES_PATH = os.path.join(BASE_DIR, "district_features.csv")
+try:
+    features_df = pd.read_csv(FEATURES_PATH)
+    if 'district' in features_df.columns:
+        features_df['district'] = features_df['district'].astype(str).str.strip()
+except Exception as e:
+    print(f"Error loading district features CSV: {e}")
+    features_df = pd.DataFrame()
+
 # Hardcoded District Coordinates for Karnataka
 DISTRICT_COORDS = {
     "Bengaluru Urban": {"lat": 12.9716, "lng": 77.5946},
@@ -195,8 +204,81 @@ def get_district_counts() -> list:
     result.sort(key=lambda x: x['count'], reverse=True)
     return result
 
+
+def _get_district_socioeconomic_join() -> pd.DataFrame:
+    if df.empty or features_df.empty or 'district' not in df.columns:
+        return pd.DataFrame()
+
+    counts = df.groupby(df['district'].astype(str).str.strip()).size().reset_index(name='crime_count')
+    joined = counts.merge(features_df, on='district', how='inner')
+    return joined
+
+
+def get_socioeconomic_correlation() -> dict:
+    joined = _get_district_socioeconomic_join()
+    if joined.empty:
+        return {}
+
+    feature_columns = [col for col in joined.columns if col not in ['district', 'crime_count']]
+    correlations = {}
+    for column in feature_columns:
+        if joined[column].dtype.kind in 'biufc':
+            corr_value = joined['crime_count'].corr(joined[column])
+            correlations[column] = None if pd.isna(corr_value) else round(float(corr_value), 4)
+
+    return correlations
+
+
+def get_socioeconomic_feature_data() -> list:
+    joined = _get_district_socioeconomic_join()
+    if joined.empty:
+        return []
+    return joined.to_dict('records')
+
+
+def get_repeat_offenders() -> list:
+    if df.empty or 'accused_name' not in df.columns:
+        return []
+
+    group = df.groupby('accused_name', dropna=True)
+    repeat_groups = group.filter(lambda rows: len(rows) >= 2).groupby('accused_name', dropna=True)
+
+    offenders = []
+    for accused_name, subset in repeat_groups:
+        subset = subset.copy()
+        subset['date'] = pd.to_datetime(subset['date'], errors='coerce')
+
+        crime_types = sorted(set(subset['crime_type'].dropna().astype(str).str.strip().tolist()))
+        districts = sorted(set(subset['district'].dropna().astype(str).str.strip().tolist()))
+
+        first_seen = subset['date'].min()
+        last_seen = subset['date'].max()
+
+        ages = subset['accused_age'].dropna().astype(str).str.strip()
+        age_value = None
+        if not ages.empty:
+            age_value = ages.mode().iat[0] if not ages.mode().empty else ages.iloc[0]
+            try:
+                age_value = int(age_value)
+            except Exception:
+                age_value = age_value
+
+        offenders.append({
+            'name': accused_name,
+            'total_cases': int(len(subset)),
+            'crime_types': crime_types,
+            'districts': districts,
+            'first_seen': first_seen.strftime('%Y-%m-%d') if not pd.isna(first_seen) else None,
+            'last_seen': last_seen.strftime('%Y-%m-%d') if not pd.isna(last_seen) else None,
+            'age': age_value
+        })
+
+    offenders.sort(key=lambda item: item['total_cases'], reverse=True)
+    return offenders
+
 if __name__ == "__main__":
     print("Total Counts:", get_total_counts())
     print("Monthly Trend:", get_monthly_trend()[:3])
     print("Crime Breakdown:", get_crime_breakdown()[:3])
     print("District Counts:", get_district_counts()[:3])
+    print("Repeat Offenders:", get_repeat_offenders()[:5])

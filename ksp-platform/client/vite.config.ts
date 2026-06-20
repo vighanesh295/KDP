@@ -11,6 +11,9 @@ export default defineConfig({
   },
   server: {
     proxy: {
+      "/auth": "http://localhost:8000",
+      "/audit": "http://localhost:8000",
+      "/offenders": "http://localhost:8000",
       "/chat": "http://localhost:8000",
       "/analytics": "http://localhost:8000",
       "/hotspot": "http://localhost:8000",

@@ -1,5 +1,13 @@
 from fastapi import APIRouter
-from data.loader import get_total_counts, get_monthly_trend, get_crime_breakdown, get_district_counts, get_crime_details
+from data.loader import (
+    get_total_counts,
+    get_monthly_trend,
+    get_crime_breakdown,
+    get_district_counts,
+    get_crime_details,
+    get_socioeconomic_correlation,
+    get_socioeconomic_feature_data
+)
 
 router = APIRouter()
 
@@ -20,7 +28,9 @@ def get_analytics():
         "solved_cases": counts.get("solved_cases", 0),
         "districts": districts_formatted,
         "monthly_trend": get_monthly_trend(),
-        "crime_breakdown": get_crime_breakdown()
+        "crime_breakdown": get_crime_breakdown(),
+        "correlations": get_socioeconomic_correlation(),
+        "socioeconomic_data": get_socioeconomic_feature_data()
     }
 
 @router.get("/crime/{crime_type}")

@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Skeleton } from "@/components/ui/skeleton"
 import { ArrowLeft, MapPin, ShieldCheck, FileSearch, TrendingUp } from "lucide-react"
 import { fetchCrimeCategoryDetails } from "@/lib/api"
+import { useAuth } from "../lib/authStore"
 import { demoDashboardData } from "@/data/demoData"
 
 interface CrimeCategoryData {
@@ -50,6 +51,7 @@ function toCrimeType(raw: string | undefined) {
 export default function CrimeCategoryDetails() {
   const navigate = useNavigate()
   const { type } = useParams<{ type: string }>()
+  const { token } = useAuth()
   const crimeType = useMemo(() => toCrimeType(type), [type])
   const [data, setData] = useState<CrimeCategoryData | null>(null)
   const [isLoading, setIsLoading] = useState(true)
@@ -65,7 +67,7 @@ export default function CrimeCategoryDetails() {
 
       try {
         setIsLoading(true)
-        const result = await fetchCrimeCategoryDetails(crimeType)
+        const result = await fetchCrimeCategoryDetails(crimeType, token)
         setData(result)
       } catch (err: any) {
         console.error(err)

@@ -18,14 +18,18 @@ app.add_middleware(
 )
 
 # Import routers
-from routes import chat, analytics, fir, hotspot, anomaly
+from routes import auth, chat, analytics, fir, hotspot, anomaly, audit, network, offenders
 
 # Register routers
+app.include_router(auth.router, prefix="/auth", tags=["Auth"])
 app.include_router(chat.router, prefix="/chat", tags=["Chat"])
 app.include_router(analytics.router, prefix="/analytics", tags=["Analytics"])
 app.include_router(fir.router, prefix="/fir", tags=["FIR"])
 app.include_router(hotspot.router, prefix="/hotspot", tags=["Hotspots"])
 app.include_router(anomaly.router, prefix="/anomaly", tags=["Anomaly Detection"])
+app.include_router(audit.router, prefix="/audit", tags=["Audit"])
+app.include_router(network.router, prefix="/network", tags=["Network"])
+app.include_router(offenders.router, prefix="/offenders", tags=["Offenders"])
 
 @app.get("/")
 def read_root():

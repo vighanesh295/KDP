@@ -1,0 +1,31 @@
+district,population_density,literacy_rate,unemployment_rate,urbanization_index
+Bengaluru Urban,2757,94.4,5.7,0.86
+Mysuru,2812,92.3,4.9,0.88
+Hubballi-Dharwad,3463,93.6,5.0,0.9
+Belagavi,3740,97.1,4.7,0.9
+Mangaluru,3506,92.1,5.1,0.94
+Kalaburagi,742,90.2,7.4,0.6
+Davangere,1179,86.4,5.4,0.71
+Shivamogga,1210,87.7,8.3,0.56
+Vijayapura,1314,85.8,8.2,0.49
+Ballari,1176,84.8,7.8,0.65
+Tumakuru,225,73.0,10.1,0.24
+Raichur,1402,85.5,4.1,0.6
+Bidar,951,81.9,5.9,0.63
+Hassan,1519,87.4,6.6,0.65
+Udupi,255,73.1,8.8,0.18
+Dharwad,263,76.1,10.1,0.27
+Chikkamagaluru,197,77.6,8.6,0.35
+Kodagu,190,72.9,8.4,0.26
+Mandya,1434,87.9,8.4,0.65
+Chitradurga,935,85.6,6.4,0.7
+Gadag,913,89.0,8.3,0.73
+Yadgir,261,78.0,12.9,0.26
+Ramanagara,126,68.9,11.1,0.17
+Chamarajanagar,265,77.0,10.4,0.33
+Chikkaballapura,337,80.0,9.1,0.25
+Bagalkot,1015,88.8,8.3,0.65
+Haveri,1484,83.2,9.1,0.71
+Koppal,1377,91.5,5.5,0.59
+Vijayanagara,222,78.0,8.9,0.35
+Bengaluru Rural,1529,88.4,7.6,0.56

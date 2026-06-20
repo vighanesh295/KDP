@@ -1,0 +1,11 @@
+timestamp,username,role,endpoint,query,response_summary
+2026-06-20T05:07:35.133991,officer1,officer,/chat,Hello,"KSP Intelligence Assistant ready. Please state your query regarding crime investigation, IPC sections, cybercrime, or any law enforcement guidance required. I am prepared to assist with relevant infor"
+2026-06-20T05:07:52.035337,officer1,officer,/chat,???????,"ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪ್ರಶ್ನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಿ. ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್ ಗುಪ್ತಚರ ಸಹಾಯಕರು ಅಪರಾಧ ತನಿಖೆ, ಸೈಬರ್ ಅಪರಾಧ ಪ್ರಕರಣಗಳಾದ ಮಾಹಿತಿ ತಂತ್ರಜ್ಞಾನ ಕಾಯಿದೆ ಸೆಕ್ಷನ್ 66C, 66D ಮತ್ತು ಐಪಿಸಿ ಸೆಕ್ಷನ್ 420 ಅಡಿಯಲ್ಲಿನ ವಂಚನೆಗಳಿಗೆ"
+2026-06-20T05:15:10.363422,officer1,officer,/chat,Hello,"Greetings. How can KSP Intelligence assist your current operational needs?
+
+REASONING: General conversational response based on police operational knowledge."
+2026-06-20T05:15:38.339822,officer1,officer,/chat,Hello,"Greetings, Officer. KSP Intelligence is online and ready for operational queries. Please state your specific investigation or law enforcement question."
+2026-06-20T05:15:49.509266,officer1,officer,/chat,How many cybercrimes in Bengaluru this month?,"I am unable to provide real-time, current month's cybercrime statistics for Bengaluru. Access to such dynamic data is restricted to live KSP operational dashboards and official crime reporting portals"
+2026-06-20T06:24:49.229130,commander1,commander,/chat,hi,"Greetings, Officer. KSP Intelligence is online and ready for operational queries. Please state your requirement or specific case for assistance."
+2026-06-20T06:24:59.505213,commander1,commander,/chat,hi,"ನಮಸ್ಕಾರ, KSP ಇಂಟೆಲಿಜೆನ್ಸ್ ಅಸಿಸ್ಟೆಂಟ್. ಏನು ಮಾಹಿತಿ ಬೇಕು?"
+2026-06-20T06:26:14.275883,commander1,commander,/chat,what is the crime record of cyber security,"The ""crime record of cybersecurity"" encompasses the total reported incidents of cybercrime, detailing their types, frequency, and impact within a jurisdiction. This includes a range of offenses from o"

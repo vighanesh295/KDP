@@ -1,8 +1,13 @@
+import ChatPanel from "@/components/chatbot/ChatPanel"
+
 export default function Chatbot() {
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold">Chatbot</h1>
-      <p className="mt-4 text-muted-foreground">AI Chatbot interface coming soon.</p>
+    <div className="h-screen bg-[#08101f]">
+      <div className="flex h-full w-full items-stretch justify-center">
+        <div className="w-full h-full">
+          <ChatPanel />
+        </div>
+      </div>
     </div>
   )
 }

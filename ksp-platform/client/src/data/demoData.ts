@@ -11,6 +11,20 @@ export const demoDashboardData = {
       { name: "Hubballi-Dharwad", count: 54, lat: 15.4293, lng: 75.0506 },
       { name: "Mangaluru", count: 48, lat: 12.9141, lng: 74.8560 }
     ],
+    correlations: {
+      population_density: 0.3451,
+      literacy_rate: 0.2123,
+      unemployment_rate: -0.1487,
+      urbanization_index: 0.2860
+    },
+    socioeconomic_data: [
+      { district: "Bengaluru Urban", crime_count: 142, population_density: 2757, literacy_rate: 94.4, unemployment_rate: 5.7, urbanization_index: 0.86 },
+      { district: "Mysuru", crime_count: 88, population_density: 2812, literacy_rate: 92.3, unemployment_rate: 4.9, urbanization_index: 0.88 },
+      { district: "Belagavi", crime_count: 76, population_density: 3740, literacy_rate: 97.1, unemployment_rate: 4.7, urbanization_index: 0.9 },
+      { district: "Kalaburagi", crime_count: 65, population_density: 742, literacy_rate: 90.2, unemployment_rate: 7.4, urbanization_index: 0.6 },
+      { district: "Hubballi-Dharwad", crime_count: 54, population_density: 3463, literacy_rate: 93.6, unemployment_rate: 5.0, urbanization_index: 0.9 },
+      { district: "Mangaluru", crime_count: 48, population_density: 3506, literacy_rate: 92.1, unemployment_rate: 5.1, urbanization_index: 0.94 }
+    ],
     monthly_trend: [
       { month: "2025-01", count: 65 },
       { month: "2025-02", count: 72 },

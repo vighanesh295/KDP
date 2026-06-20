@@ -2,7 +2,11 @@
 import fallback from '../data/fallback.json';
 import { demoDashboardData } from '../data/demoData';
 
-const API_BASE = import.meta.env.VITE_API_URL ?? "";
+const API_BASE = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
+
+function authHeaders(token?: string) {
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
 
 // Basic mock data for other endpoints to act as the fallback
 const fallbackData = {
@@ -25,9 +29,11 @@ const fallbackData = {
   }
 };
 
-export async function fetchAnalytics() {
+export async function fetchAnalytics(token?: string) {
   try {
-    const response = await fetch(`${API_BASE}/analytics/`);
+    const response = await fetch(`${API_BASE}/analytics/`, {
+      headers: authHeaders(token)
+    });
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     return await response.json();
   } catch (error) {
@@ -36,26 +42,60 @@ export async function fetchAnalytics() {
   }
 }
 
-export async function sendChatMessage(query) {
+export async function sendChatMessage(query, token?: string, language: 'en'|'kn' = 'en', files?: File[]) {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 30000);
+
+    const hasFiles = Array.isArray(files) && files.length > 0
+    const headers: Record<string, string> = {
+      ...authHeaders(token),
+    }
+
+    let body: BodyInit
+    if (hasFiles) {
+      const formData = new FormData()
+      formData.append('query', query || '')
+      formData.append('language', language)
+      files.forEach((file) => {
+        const filename = (file as any).webkitRelativePath || file.name
+        formData.append('file', file, filename)
+      })
+      body = formData
+    } else {
+      headers['Content-Type'] = 'application/json'
+      body = JSON.stringify({ query, language })
+    }
+
     const res = await fetch(`${API_BASE}/chat/`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ query }),
+      headers,
+      body,
       signal: controller.signal
     });
     clearTimeout(timeout);
-    
+
     if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
     return await res.json();
   } catch (err) {
     console.warn("sendChatMessage failed or timed out, using fallback:", err);
-    const match = fallback.find((f: any) => query.toLowerCase().includes(f.keyword));
+    const q = (query || '').toLowerCase();
+    let match = null;
+    if (language === 'kn') {
+      match = fallback.find((f: any) => f.lang === 'kn' && q.includes(f.keyword));
+      if (match) return { response: match.response, source: "offline", isFallback: true };
+      return {
+        response: "ಚಾಟ್ ಈಗ ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+        source: "offline",
+        isFallback: true
+      };
+    }
+
+    match = fallback.find((f: any) => q.includes(f.keyword) && (!f.lang || f.lang === 'en'));
     if (match) {
       return { response: match.response, source: "offline", isFallback: true };
     }
+
     return {
       response: "Chat is currently unavailable. Please try again in a moment or ask a simpler question.",
       source: "offline",
@@ -64,12 +104,13 @@ export async function sendChatMessage(query) {
   }
 }
 
-export async function classifyFIR(text) {
+export async function classifyFIR(text, token?: string) {
   try {
     const response = await fetch(`${API_BASE}/fir/classify`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+        ...authHeaders(token)
       },
       body: JSON.stringify({ text })
     });
@@ -82,9 +123,11 @@ export async function classifyFIR(text) {
   }
 }
 
-export async function fetchHotspots() {
+export async function fetchHotspots(token?: string) {
   try {
-    const response = await fetch(`${API_BASE}/hotspot/`);
+    const response = await fetch(`${API_BASE}/hotspot/`, {
+      headers: authHeaders(token)
+    });
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     return await response.json();
   } catch (error) {
@@ -93,9 +136,11 @@ export async function fetchHotspots() {
   }
 }
 
-export async function fetchAnomalies() {
+export async function fetchAnomalies(token?: string) {
   try {
-    const response = await fetch(`${API_BASE}/anomaly/`);
+    const response = await fetch(`${API_BASE}/anomaly/`, {
+      headers: authHeaders(token)
+    });
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     return await response.json();
   } catch (error) {
@@ -104,9 +149,27 @@ export async function fetchAnomalies() {
   }
 }
 
-export async function fetchCrimeCategoryDetails(crimeType) {
+export async function fetchAuditLogs(token?: string) {
   try {
-    const response = await fetch(`${API_BASE}/analytics/crime/${encodeURIComponent(crimeType)}`);
+    const response = await fetch(`${API_BASE}/audit/logs`, {
+      headers: {
+        ...authHeaders(token),
+        "Content-Type": "application/json",
+      },
+    });
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    return await response.json();
+  } catch (error) {
+    console.warn("fetchAuditLogs failed, returning empty logs:", error);
+    return { logs: [] };
+  }
+}
+
+export async function fetchCrimeCategoryDetails(crimeType, token?: string) {
+  try {
+    const response = await fetch(`${API_BASE}/analytics/crime/${encodeURIComponent(crimeType)}`, {
+      headers: authHeaders(token)
+    });
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     return await response.json();
   } catch (error) {
@@ -145,6 +208,48 @@ export async function fetchCrimeCategoryDetails(crimeType) {
         }
       ]
     }
+  }
+}
+
+export async function fetchNetworkGraph(token?: string) {
+  try {
+    const response = await fetch(`${API_BASE}/network`, {
+      headers: authHeaders(token)
+    });
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    return await response.json();
+  } catch (error) {
+    console.warn("fetchNetworkGraph failed:", error);
+    return { nodes: [], edges: [] };
+  }
+}
+
+export async function fetchRepeatOffenders(token?: string) {
+  try {
+    const response = await fetch(`${API_BASE}/offenders/repeat`, {
+      headers: {
+        ...authHeaders(token),
+        "Content-Type": "application/json",
+      },
+    });
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    return await response.json();
+  } catch (error) {
+    console.warn("fetchRepeatOffenders failed, returning empty offenders:", error);
+    return [];
+  }
+}
+
+export async function fetchPersonNetwork(accusedName: string, token?: string) {
+  try {
+    const response = await fetch(`${API_BASE}/network/${encodeURIComponent(accusedName)}`, {
+      headers: authHeaders(token)
+    });
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    return await response.json();
+  } catch (error) {
+    console.warn("fetchPersonNetwork failed:", error);
+    return { nodes: [], edges: [], case_history: [] };
   }
 }
 

@@ -10,11 +10,13 @@ import CrimeHeatmap from "@/components/heatmap/CrimeHeatmap"
 import AlertFeed from "@/components/dashboard/AlertFeed"
 import { fetchAnalytics, fetchAnomalies, fetchHotspots } from "@/lib/api"
 import { useChat } from "@/lib/ChatContext"
+import { useAuth } from "../lib/authStore"
 import { demoDashboardData } from "@/data/demoData"
 
 export default function Dashboard() {
   const navigate = useNavigate()
   const { openChat } = useChat()
+  const { token } = useAuth()
   const [data, setData] = useState<any>(null)
   const [anomalies, setAnomalies] = useState<any>(null)
   const [hotspots, setHotspots] = useState<any>(null)
@@ -26,9 +28,9 @@ export default function Dashboard() {
       try {
         setIsLoading(true)
         const [analyticsRes, anomaliesRes, hotspotsRes] = await Promise.all([
-          fetchAnalytics(),
-          fetchAnomalies(),
-          fetchHotspots()
+          fetchAnalytics(token),
+          fetchAnomalies(token),
+          fetchHotspots(token)
         ])
         
         if (!analyticsRes) throw new Error("No data received")

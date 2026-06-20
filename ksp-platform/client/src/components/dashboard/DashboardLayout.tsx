@@ -1,9 +1,12 @@
 import type { ReactNode } from "react"
-import { Link, useLocation } from "react-router-dom"
+import emblemImage from "../../assets/karnataka-emblem.jpg"
+import { Link, useLocation, useNavigate } from "react-router-dom"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import { MessageCircle, X } from "lucide-react"
 import ChatPanel from "@/components/chatbot/ChatPanel"
 import { useChat } from "@/lib/ChatContext"
+import { useAuth } from "../../lib/authStore"
 
 interface DashboardLayoutProps {
   children: ReactNode
@@ -12,12 +15,17 @@ interface DashboardLayoutProps {
 
 export default function DashboardLayout({ children, title }: DashboardLayoutProps) {
   const location = useLocation()
+  const navigate = useNavigate()
   const { isChatOpen, openChat, closeChat } = useChat()
+  const { user, logout } = useAuth()
 
   const navLinks = [
     { name: "Dashboard", path: "/" },
     { name: "Chatbot", path: "/chatbot" },
     { name: "Analytics", path: "/analytics" },
+    { name: "Network Analysis", path: "/network" },
+    { name: "Repeat Offenders", path: "/offenders" },
+    ...(user?.role === "admin" ? [{ name: "Audit Trail", path: "/audit" }] : []),
   ]
 
   return (
@@ -25,16 +33,15 @@ export default function DashboardLayout({ children, title }: DashboardLayoutProp
       {/* Sidebar */}
       <aside className="w-16 lg:w-[240px] bg-[#1e293b] flex flex-col flex-shrink-0 transition-all duration-300 overflow-hidden border-r border-slate-700">
         <div className="py-4 flex flex-col items-center justify-center border-b border-slate-700 gap-2">
-          <img 
-            src="/logo.svg" 
-            alt="Karnataka Police" 
-            className="w-[72px] h-[72px] object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.1)]"
-          />
+          <div className="bg-white rounded-full p-1 w-8 h-8 flex items-center justify-center shadow-lg">
+            <img src={emblemImage} alt="Karnataka Emblem" className="w-full h-full object-contain" />
+          </div>
           <span className="text-xl font-bold tracking-widest text-slate-100 lg:block hidden uppercase">KSP</span>
         </div>
         <nav className="flex-1 py-6 px-2 lg:px-4 space-y-2">
           {navLinks.map((link) => {
-            const isActive = location.pathname === link.path
+            // Highlight exact match for root, or prefix match for section routes
+            const isActive = link.path === "/" ? location.pathname === "/" : location.pathname.startsWith(link.path)
             return (
               <Link
                 key={link.name}
@@ -59,11 +66,18 @@ export default function DashboardLayout({ children, title }: DashboardLayoutProp
         {/* Top Navbar */}
         <header className="h-16 bg-[#1e293b] border-b border-slate-700 flex items-center justify-between px-4 lg:px-8 flex-shrink-0">
           <h1 className="text-lg lg:text-xl font-semibold tracking-wide truncate">{title}</h1>
-          <div className="flex items-center">
+          <div className="flex items-center gap-4">
             <Badge variant="outline" className="text-emerald-400 border-emerald-400/50 bg-emerald-400/10 gap-2 px-3 py-1 font-medium">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_rgba(52,211,153,0.8)]"></span>
               Live
             </Badge>
+            <div className="hidden sm:flex flex-col text-right">
+              <span className="text-sm font-medium text-slate-100">{`${user?.name || "Unknown User"}`}</span>
+              <span className="text-xs text-slate-400">{`${user?.role || "Unknown Role"}`}</span>
+            </div>
+            <Button variant="outline" size="sm" onClick={() => { logout(); navigate('/login') }}>
+              Logout
+            </Button>
           </div>
         </header>
 

@@ -1,0 +1,20 @@
+[
+  {
+    "username": "officer1",
+    "password": "ksp2026",
+    "role": "officer",
+    "name": "Inspector Rao"
+  },
+  {
+    "username": "commander1",
+    "password": "ksp2026",
+    "role": "commander",
+    "name": "DCP Sharma"
+  },
+  {
+    "username": "admin",
+    "password": "ksp2026",
+    "role": "admin",
+    "name": "Admin"
+  }
+]
